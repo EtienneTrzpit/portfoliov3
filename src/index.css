@@ -43,4 +43,33 @@ body {
   color: black;
 }
 
+.presentation{
+  font-family: Oswald, sans-serif;
+  margin-top: 250px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-left: 600px;
+}
+
+.presentation-txt{
+  flex-basis: 25%;
+  margin-right: 100px;
+}
+
+.presentation-img{
+  width: 172px;
+  height: 243px;
+}
+
+.title{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.subtitle{
+  font-size: 50px;
+
+}
+
 
