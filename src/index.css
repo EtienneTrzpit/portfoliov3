@@ -89,6 +89,10 @@ body {
   display: none;
 }
 
+.hamburger-menu{
+  display: none;
+}
+
 .hamburger-menu-hidden{
   display: none;
 }
@@ -124,6 +128,8 @@ body {
   }
 
   .hamburger-menu{
+    padding-top: 50px;
+    display: block;
     z-index: 1;
     position: fixed;
     top: 0;
@@ -133,10 +139,29 @@ body {
     width: 50vw;
     color: var(--color6);
     text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+  }
+
+  .mark-menu{
+    position: absolute;
+    right: 2vh;
+    top: 2vh;
   }
 
   .list-sections{
+    margin-top: 10vh;
     list-style-type: none;
+    font-weight: bold;
+  }
+
+  .list-sections li{
+    margin-bottom: 5vh;
+  }
+
+  .list-sections li a{
+    color: var(--color6);
+    text-decoration: none;
   }
 
 }
