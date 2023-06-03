@@ -72,4 +72,22 @@ body {
 
 }
 
+.header-top{
+  display: none;
+}
 
+/**********  MEDIA QUERIES **********/
+/*Medium devices (tablets, less/equal than 1024px)*/
+
+@media (max-width: 1024px){
+  .header-top{
+    display: flex;
+  }
+}
+
+/*Small devices (phones, less/equal than 768px)*/
+@media (max-width: 768px){
+  .navbar {
+    display: none;
+  }
+}

@@ -6,8 +6,7 @@ export default function NavBar() {
     const [activeItem, setActiveItem] = useState('item1');
     const handleItemClick = (item) => {
         setActiveItem(item);
-      };
-    
+    }
     return (
         <nav className="navbar">
             <ul>
