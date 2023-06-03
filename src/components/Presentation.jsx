@@ -4,8 +4,8 @@ export default function Presentation() {
     return (
         <article className="presentation">
             <div className='presentation-txt'>
-                <h1 className="title">Etienne Trzpit</h1>
-                <p className="subtitle">Intégrateur Web en développement en React</p>
+                <p className="subtitle">Etienne Trzpit</p>
+                <h1 className="title">Intégrateur Web en développement en React</h1>
             </div>
             <img className="presentation-img" src={photo} alt="Photo personnelle"/>
         </article>
