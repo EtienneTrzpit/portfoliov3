@@ -1,3 +1,14 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 :root {
   --color1: #1B065E;
   --color2: #FF47DA;
@@ -82,12 +93,29 @@ body {
 @media (max-width: 1024px){
   .header-top{
     display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    display: none;
   }
 }
 
 /*Small devices (phones, less/equal than 768px)*/
 @media (max-width: 768px){
-  .navbar {
-    display: none;
+
+  .name {
+    font-size: 30px;
+    flex-basis: 20%;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 40px;
   }
+
+  .hamburger {
+    margin-right: 40px;
+    margin-top: 30px;
+  }
+
 }
