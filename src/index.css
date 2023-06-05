@@ -97,6 +97,54 @@ body {
   display: none;
 }
 
+.cards{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+  color: var(--color6);
+  background-color: var(--color5);
+  flex-direction: column;
+}
+
+.cards-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh;
+}
+
+.cards-header-title{
+  margin-left: 5vw;
+}
+
+.cards-columns{
+  margin-left: 5vw;
+  width: fit-content;
+  margin-bottom: 2vh;
+}
+
+.cards-columns-title{
+  margin-bottom: 2vh;
+  width: fit-content;
+}
+
+.column-knowledge{
+  padding-left: 5vw;
+}
+
+.title-knowledge{
+  border-bottom: 5px solid var(--color6);
+}
+
+.knowledge li{
+  list-style-type: none;
+  margin-top: 2vh;
+}
+
+.knowledge-icons{
+  margin-right: 5vw;
+}
+
 /**********  MEDIA QUERIES **********/
 /*Medium devices (tablets, less/equal than 1024px)*/
 
@@ -151,7 +199,6 @@ body {
 
   .list-sections{
     margin-top: 10vh;
-    list-style-type: none;
     font-weight: bold;
   }
 
