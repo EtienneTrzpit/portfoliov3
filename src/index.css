@@ -127,18 +127,18 @@ body {
   display: flex;
 }
 
-.cards-columns{
+.cards-box{
   margin-left: 2vw;
   width: fit-content;
   margin-bottom: 2vh;
 }
 
-.cards-columns-title{
+.cards-box-title{
   margin-bottom: 2vh;
   width: fit-content;
 }
 
-.columns-knowledge{
+.box-knowledge{
   padding-left: 5vw;
 }
 
@@ -161,7 +161,7 @@ body {
   height: 4vh;
 }
 
-.columns-projects{
+.box-projects{
   text-align: center;
   width: 45vw;
   background-color: var(--color4);
@@ -177,7 +177,7 @@ body {
   margin-bottom: 4vh;
 }
 
-.columns-certifications{
+.box-certifications{
   background-color: var(--color4);
   width: 500vw;
   position: absolute;

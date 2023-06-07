@@ -10,12 +10,12 @@ export default function SavoirFaire() {
     return(
         <section className='cards knowledge'>
             <div className='cards-header'>
-            <FontAwesomeIcon icon={faBrain} size='2xl'/>
-            <h2 className='cards-header-title'>Savoir-Faire</h2>
+                <FontAwesomeIcon icon={faBrain} size='2xl'/>
+                <h2 className='cards-header-title'>Savoir-Faire</h2>
             </div>
             <div className='cards-main'>
-                <section className='cards-columns columns-knowledge'>
-                    <h3 className='cards-columns-title titles-knowledge'>Front-End</h3>
+                <section className='cards-box box-knowledge'>
+                    <h3 className='cards-box-title titles-knowledge'>Front-End</h3>
                     <ul>
                         <li><FontAwesomeIcon icon={faHtml5} size='xl' className='knowledge-icons'/>HTML5 Sémantique</li>
                         <li><FontAwesomeIcon icon={faCss3Alt} size='xl' className='knowledge-icons'/>CSS3 Animation</li>
@@ -23,8 +23,8 @@ export default function SavoirFaire() {
                         <li><FontAwesomeIcon icon={faSass} size='xl' className='knowledge-icons'/>Sass</li>
                     </ul>
                 </section>
-                <section className='cards-columns columns-knowledge'>
-                    <h3 className='cards-columns-title titles-knowledge'>Déploiement</h3>
+                <section className='cards-box box-knowledge'>
+                    <h3 className='cards-box-title titles-knowledge'>Déploiement</h3>
                     <ul>
                         <li>Git</li>
                         <li>GitHub</li>
