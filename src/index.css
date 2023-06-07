@@ -105,6 +105,9 @@ body {
   background-color: var(--color5);
   flex-direction: column;
   border-radius: 25px;
+  height: 45vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 .cards-header{
@@ -123,7 +126,7 @@ body {
 }
 
 .cards-columns{
-  margin-left: 5vw;
+  margin-left: 2vw;
   width: fit-content;
   margin-bottom: 2vh;
 }
@@ -137,7 +140,7 @@ body {
   padding-left: 5vw;
 }
 
-.title-knowledge{
+.titles-knowledge{
   border-bottom: 5px solid var(--color6);
 }
 
@@ -148,6 +151,28 @@ body {
 
 .knowledge-icons{
   margin-right: 5vw;
+}
+
+.img{
+  object-fit: cover;
+  width: 23vw;
+  height: 4vh;
+}
+
+.columns-projects{
+  text-align: center;
+  width: 45vw;
+  background-color: var(--color4);
+  border-radius: 25px;
+  padding-top: 2vh;
+  height: 30vh;
+}
+
+.titles-projects{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
 
 /**********  MEDIA QUERIES **********/

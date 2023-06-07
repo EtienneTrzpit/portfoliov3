@@ -15,7 +15,7 @@ export default function SavoirFaire() {
             </div>
             <div className='cards-main'>
                 <section className='cards-columns columns-knowledge'>
-                    <h3 className='cards-columns-title title-knowledge'>Front-End</h3>
+                    <h3 className='cards-columns-title titles-knowledge'>Front-End</h3>
                     <ul>
                         <li><FontAwesomeIcon icon={faHtml5} size='xl' className='knowledge-icons'/>HTML5 Sémantique</li>
                         <li><FontAwesomeIcon icon={faCss3Alt} size='xl' className='knowledge-icons'/>CSS3 Animation</li>
@@ -24,7 +24,7 @@ export default function SavoirFaire() {
                     </ul>
                 </section>
                 <section className='cards-columns columns-knowledge'>
-                    <h3 className='cards-columns-title title-knowledge'>Déploiement</h3>
+                    <h3 className='cards-columns-title titles-knowledge'>Déploiement</h3>
                     <ul>
                         <li>Git</li>
                         <li>GitHub</li>
