@@ -104,6 +104,7 @@ body {
   color: var(--color6);
   background-color: var(--color5);
   flex-direction: column;
+  border-radius: 25px;
 }
 
 .cards-header{
@@ -117,6 +118,10 @@ body {
   margin-left: 5vw;
 }
 
+.cards-main{
+  display: flex;
+}
+
 .cards-columns{
   margin-left: 5vw;
   width: fit-content;
@@ -128,7 +133,7 @@ body {
   width: fit-content;
 }
 
-.column-knowledge{
+.columns-knowledge{
   padding-left: 5vw;
 }
 
