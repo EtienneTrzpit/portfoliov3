@@ -14,7 +14,7 @@ export default function SavoirFaire() {
                 <h2 className='cards-header-title'>Savoir-Faire</h2>
             </div>
             <div className='cards-main'>
-                <section className='cards-box box-knowledge'>
+                <article className='cards-box box-knowledge'>
                     <h3 className='cards-box-title titles-knowledge'>Front-End</h3>
                     <ul>
                         <li><FontAwesomeIcon icon={faHtml5} size='xl' className='knowledge-icons'/>HTML5 Sémantique</li>
@@ -22,8 +22,8 @@ export default function SavoirFaire() {
                         <li><FontAwesomeIcon icon={faSquareJs} size='xl' className='knowledge-icons'/>Javascript</li>
                         <li><FontAwesomeIcon icon={faSass} size='xl' className='knowledge-icons'/>Sass</li>
                     </ul>
-                </section>
-                <section className='cards-box box-knowledge'>
+                </article>
+                <article className='cards-box box-knowledge'>
                     <h3 className='cards-box-title titles-knowledge'>Déploiement</h3>
                     <ul>
                         <li>Git</li>
@@ -31,7 +31,7 @@ export default function SavoirFaire() {
                         <li>VS Code</li>
                         <li>Netlify</li>
                     </ul>
-                </section>
+                </article>
             </div>    
         </section>
         

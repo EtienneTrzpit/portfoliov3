@@ -12,16 +12,16 @@ export default function Projets() {
                 <h2 className='cards-header-title'>Projets</h2>
             </div>
             <div className='cards-main'>
-                <section className='cards-box box-projects'>
+                <article className='cards-box box-projects'>
                     <img src={RidingCities} alt='skateboard' className='img'/>
                     <h3 className='cards-box-title titles-projects'>Riding Cities</h3>
                     <p>Projet HTML avec ajout de plusieurs sections</p>
-                </section>
-                <section className='cards-box box-projects'>
+                </article>
+                <article className='cards-box box-projects'>
                     <img src={Booki} alt='logo Booki' className='img'/>
                     <h3 className='cards-box-title titles-projects'>Booki</h3>
                     <p>Projet HTML avec ajout de plusieurs sections</p>
-                </section>
+                </article>
             </div>
         </section>
     )
