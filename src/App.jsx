@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import Presentation from './components/Presentation'
 import SavoirFaire from './components/SavoirFaire'
 import Projets from './components/Projets'
+import Certifications from './components/Certifications'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
       <Presentation />
       <SavoirFaire />
       <Projets />
+      <Certifications />
     </>
   )
 }
