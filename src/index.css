@@ -209,7 +209,10 @@ body {
   background-position: 50% 70%;
   background-repeat: no-repeat;
   height: 31vh;
-  width: 92.5vw;
+  width: 96vw;
+  margin-bottom: 4vh;
+  margin-top: -4vh;
+  color: white;
 }
 
 .projet2{
@@ -218,8 +221,23 @@ body {
   background-position: 50% 70%;
   background-repeat: no-repeat;
   height: 31vh;
-  width: 92.5vw;
+  width: 96vw;
+  margin-bottom: 4vh;
+  margin-top: -4vh;
+  color: white;
 }
+
+.active p{
+  margin-top: 18vh;
+  text-align: center;
+  background-color: var(--color1);
+}
+
+.active h3{
+  padding-top: 2vh;
+  background-color: var(--color1);
+}
+
 
 /**********  MEDIA QUERIES **********/
 /*Medium devices (tablets, less/equal than 1024px)*/
