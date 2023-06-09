@@ -2,7 +2,7 @@ import '../index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faChevronCircleLeft} from '@fortawesome/free-solid-svg-icons'
 import {faChevronCircleRight} from '@fortawesome/free-solid-svg-icons'
-import Booki from '../assets/Booki.png'
+import Booki from '../assets/Booki.jpg'
 import RidingCities from '../assets/RidingCities.png'
 import  SliderImage  from './SliderImage'
 import { useState } from 'react'
@@ -12,11 +12,13 @@ const images = [
     {
         title: 'Riding Cities',
         subtitle: 'Projet HTML avec ajout de plusieurs sections',
+        numero: 'projet1',
         image: RidingCities
     },
     {
         title: 'Booki',
         subtitle: 'Projet HTML avec ajout de plusieurs sections',
+        numero: 'projet2',
         image: Booki
     }
 ];
@@ -43,7 +45,7 @@ return (
         <div className='cards-main'>
         {images.map((image, index) => {
             return (  
-                <article className={index === current ? 'cards-box box-projects active' : 'cards-box box-projects box-hidden'} key={index}>
+                <article className={index === current ? /*'cards-box box-projects*/ 'active' : 'cards-box box-projects box-hidden'} key={index}>
                     {index === current && (
                         <SliderImage image={image} />
                     )}

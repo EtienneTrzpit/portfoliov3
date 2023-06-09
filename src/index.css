@@ -203,6 +203,24 @@ body {
   cursor: pointer;
 }
 
+.projet1{
+  background-image: url('assets/RidingCities.png');
+  background-size: cover;
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  height: 31vh;
+  width: 92.5vw;
+}
+
+.projet2{
+  background-image: url('assets/booki.jpg');
+  background-size: cover;
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  height: 31vh;
+  width: 92.5vw;
+}
+
 /**********  MEDIA QUERIES **********/
 /*Medium devices (tablets, less/equal than 1024px)*/
 
