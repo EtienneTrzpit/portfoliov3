@@ -5,7 +5,6 @@ import Presentation from './components/Presentation'
 import SavoirFaire from './components/SavoirFaire'
 import Projets from './components/Projets'
 import Certifications from './components/Certifications'
-import Slider from './components/Slider'
 
 function App() {
   
@@ -16,8 +15,6 @@ function App() {
       <Presentation />
       <SavoirFaire />
       <Projets />
-      <Certifications />
-      <Slider />
     </>
   )
 }

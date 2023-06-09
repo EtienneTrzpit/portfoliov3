@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faChevronCircleLeft} from '@fortawesome/free-solid-svg-icons'
 import {faChevronCircleRight} from '@fortawesome/free-solid-svg-icons'
 
-export default function SliderImage({image}) {
+export default function ProjetsImg({image}) {
 
     const numero = image.numero
 
