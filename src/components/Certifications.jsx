@@ -3,10 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap, faChevronCircleLeft, faChevronCircleRight } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
 import CertificationsImg from './CertificationsImg'
+import { faSass } from '@fortawesome/free-brands-svg-icons'
 
 const images = [
     {
-        title: 'Sass',
+        title: faSass,
         subtitle: 'Simplifiez-vous le CSS avec Sass',
         numero: 'certification1',
     },

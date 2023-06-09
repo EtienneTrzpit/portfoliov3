@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../index.css'
 
 export default function CertificationsImg({image}) {
@@ -6,7 +7,9 @@ export default function CertificationsImg({image}) {
 
     return (
         <div className={numero} key={image.numero}>
-            <h3 className='cards-box-title titles-projects'>{image.title}</h3>
+            <h3 className='cards-box-title titles-projects'>
+                <FontAwesomeIcon icon={image.title} size='4x'/>
+            </h3>
             <p>{image.subtitle}</p>         
         </div>
     )

@@ -262,6 +262,16 @@ body {
   background-color: var(--color1);
 }
 
+.certification1 h3{
+  background-color: var(--color4);
+}
+
+.certification1 p{
+  background-color: var(--color4);
+  font-size: 32px;
+  margin-top: 5vh;
+}
+
 
 /**********  MEDIA QUERIES **********/
 /*Medium devices (tablets, less/equal than 1024px)*/
