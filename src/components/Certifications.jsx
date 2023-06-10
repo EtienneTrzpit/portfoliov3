@@ -4,18 +4,35 @@ import { faGraduationCap, faChevronCircleLeft, faChevronCircleRight } from '@for
 import { useState } from 'react'
 import CertificationsImg from './CertificationsImg'
 import { faSass } from '@fortawesome/free-brands-svg-icons'
+import { faReact } from '@fortawesome/free-brands-svg-icons'
+import { faFigma } from '@fortawesome/free-brands-svg-icons'
+import { faCss3Alt } from '@fortawesome/free-brands-svg-icons'
+
 
 const images = [
     {
         title: faSass,
         subtitle: 'Simplifiez-vous le CSS avec Sass',
-        numero: 'certification1',
+        numero: 'certification',
     },
     {
-        title: 'Booki',
-        subtitle: 'Projet HTML avec ajout de plusieurs sections',
-        numero: 'certification2',
+        title: faReact,
+        subtitle: 'Débutez avec React',
+        numero: 'certification',
+    },
+    {
+        title: faFigma,
+        subtitle: 'Créez une maquette web avec Figma',
+        numero: 'certification',
+    },
+    {
+        title: faCss3Alt,
+        subtitle: 'Créez des animations CSS modernes',
+        numero: 'certification',
     }
+
+
+
 ];
 
 export default function Projets(){

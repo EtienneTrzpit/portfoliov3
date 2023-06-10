@@ -227,19 +227,7 @@ body {
   color: white;
 }
 
-.certification1{
-  background-color: var(--color4);
-  background-size: cover;
-  background-position: 50% 70%;
-  background-repeat: no-repeat;
-  height: 31vh;
-  width: 96vw;
-  margin-bottom: 4vh;
-  margin-top: -4vh;
-  color: white;
-}
-
-.certification2{
+.certification{
   background-color: var(--color4);
   background-size: cover;
   background-position: 50% 70%;
@@ -262,11 +250,11 @@ body {
   background-color: var(--color1);
 }
 
-.certification1 h3{
+.certification h3{
   background-color: var(--color4);
 }
 
-.certification1 p{
+.certification p{
   background-color: var(--color4);
   font-size: 32px;
   margin-top: 5vh;
