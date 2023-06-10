@@ -12,13 +12,13 @@ const images = [
     {
         title: 'Riding Cities',
         subtitle: 'Projet HTML avec ajout de plusieurs sections',
-        numero: 'projet1',
+        numero: 'projet1 projet',
         image: RidingCities
     },
     {
         title: 'Booki',
-        subtitle: 'Projet HTML avec ajout de plusieurs sections',
-        numero: 'projet2',
+        subtitle: 'Projet HTML et CSS avec responsive design',
+        numero: 'projet2 projet',
         image: Booki
     }
 ];

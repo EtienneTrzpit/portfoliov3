@@ -203,8 +203,7 @@ body {
   cursor: pointer;
 }
 
-.projet1{
-  background-image: url('assets/RidingCities.png');
+.projet{
   background-size: cover;
   background-position: 50% 70%;
   background-repeat: no-repeat;
@@ -215,16 +214,12 @@ body {
   color: white;
 }
 
+.projet1{
+  background-image: url('assets/RidingCities.png');
+}
+
 .projet2{
   background-image: url('assets/booki.jpg');
-  background-size: cover;
-  background-position: 50% 70%;
-  background-repeat: no-repeat;
-  height: 31vh;
-  width: 96vw;
-  margin-bottom: 4vh;
-  margin-top: -4vh;
-  color: white;
 }
 
 .certification{
