@@ -7,7 +7,7 @@ import Contact from './Contact'
 
 export default function Main(){
     return (
-        <main>
+        <main className='content'>
             <Presentation />
             <SavoirFaire />
             <Projets />

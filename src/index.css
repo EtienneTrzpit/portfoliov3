@@ -25,6 +25,28 @@ body {
   margin: 0;
 }
 
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.projects{
+  order: 1;
+}
+
+.certifications{
+  order: 2;
+}
+
+.knowledge{
+  order: 3;
+}
+
+.contact{
+  order: 4;
+}
+
 
 .navbar {
   border-bottom: white solid 1px;
@@ -110,6 +132,7 @@ body {
   margin-right: 2vw;
   overflow-x: auto;
   position: relative;
+  width: calc(50% - 4vw);
 }
 
 .cards-header{
@@ -319,6 +342,22 @@ body {
   font-size: 12px;
 }
 
+.projet{
+  width: 300px;
+  margin-right: 200px;
+}
+
+.box-hidden{
+  display: inline-block;
+  width: 100vw;
+}
+
+.projects .cards-main{
+  display: flex;
+  flex-direction: row;
+}
+
+
 /**********  MEDIA QUERIES **********/
 /*Medium devices (tablets, less/equal than 1024px)*/
 
@@ -327,6 +366,31 @@ body {
     display: flex;
     justify-content: space-between;
   }
+
+  .content{
+    flex-direction: column;
+  }
+
+  .cards{
+    width: calc(100% - 4vw);
+  }
+
+  .knowledge{
+    order: 1;
+  }
+
+  .projects{
+    order: 2;
+  }
+
+  .certifications{
+    order: 3;
+  }
+
+  .contact{
+    order: 4;
+  }
+
 
   .navbar {
     display: none;
