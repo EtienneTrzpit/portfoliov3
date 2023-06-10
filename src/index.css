@@ -307,6 +307,12 @@ body {
   font-size: 20px;
 }
 
+.copyright{
+  margin: 1vh;
+  text-align: center;
+  font-size: 12px;
+}
+
 /**********  MEDIA QUERIES **********/
 /*Medium devices (tablets, less/equal than 1024px)*/
 

@@ -6,6 +6,7 @@ import SavoirFaire from './components/SavoirFaire'
 import Projets from './components/Projets'
 import Certifications from './components/Certifications'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
       <Projets />
       <Certifications />
       <Contact />
+      <Footer />
     </>
   )
 }
