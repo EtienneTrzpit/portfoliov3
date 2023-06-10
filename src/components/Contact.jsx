@@ -10,7 +10,7 @@ export default function Contact() {
                 <h2 className='cards-header-title'>Contact</h2>
             </div>
             <div className='cards-main contact-main'>
-                <form action='#' method='POST'>
+                <form action='https://usebasin.com/f/8f55ef4baecf' method='POST'>
                     <label htmlFor='name'>Nom</label>
                     <input type='text' id='name' name='name' placeholder='Nom' required/>
                     <label htmlFor='email'>Email</label>
