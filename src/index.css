@@ -272,6 +272,10 @@ body {
   margin-left: 7vw;
 }
 
+.contact-main textarea{
+  height: 12vh;
+}
+
 .contact-main button{
   margin-left: 7vw;
   margin-top: 2vh;
@@ -293,6 +297,25 @@ body {
 .copyright{
   margin: 1vh;
   text-align: center;
+  font-size: 12px;
+}
+
+.contact{
+  height: 80vh;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.contact .cards-header{
+  margin-bottom: -10vh;
+  margin-top: -5vh;
+}
+
+.contact .consentement{
+  margin-top: 2vh;
+  justify-content: center;
+  margin-left: 0vw;
+  margin-right: 15vw;
   font-size: 12px;
 }
 

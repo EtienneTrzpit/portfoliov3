@@ -53,6 +53,11 @@ export default function Contact() {
                     <input type='email' id='email' name='email' placeholder='Email' value={email} onChange={handleChange}required/>
                     <label htmlFor='message'>Message</label>
                     <textarea id='message' name='message' placeholder='Message' value={message} onChange={handleChange}required></textarea>
+                    {/* formulaire de consentement RGPD */}
+                    <div className='consentement'>
+                        <input type='checkbox' id='consentement' name='consentement' required/>
+                        <label htmlFor='consentement'>J'accepte que les informations saisies dans ce formulaire soient utilisées pour me recontacter dans le cadre de ma demande, conformément à notre politique de confidentialité.</label>
+                    </div>
                     <button type='submit'>Envoyer</button>
                 </form>
             </div>
