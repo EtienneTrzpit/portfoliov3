@@ -1,8 +1,44 @@
 import '../index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { useState } from 'react'
 
 export default function Contact() {
+
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [message, setMessage] = useState('')
+
+    function validateEmail(email){
+        var emailReg = new RegExp(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/i);
+        return emailReg.test(email);
+    }
+
+    function handleChange(e) {
+        switch(e.target.name) {
+            case 'name':
+                setName(e.target.value)
+                break
+            case 'email':
+                setEmail(e.target.value)
+                break
+            case 'message':
+                setMessage(e.target.value)
+                break
+            default:
+                break
+        }
+    }
+
+    function handleSubmit(e) {
+        if (validateEmail(email)) {
+            alert('Votre message a bien été envoyé')
+        } else {
+        e.preventDefault()
+        alert('Veuillez entrer une adresse email valide')
+        }
+    }
+
     return(
         <section className='cards contact'>
             <div className='cards-header'>
@@ -10,13 +46,13 @@ export default function Contact() {
                 <h2 className='cards-header-title'>Contact</h2>
             </div>
             <div className='cards-main contact-main'>
-                <form action='https://usebasin.com/f/8f55ef4baecf' method='POST'>
+                <form onSubmit={handleSubmit} action='https://usebasin.com/f/8f55ef4baecf' method='POST'>
                     <label htmlFor='name'>Nom</label>
-                    <input type='text' id='name' name='name' placeholder='Nom' required/>
+                    <input type='text' id='name' name='name' placeholder='Nom' value={name} onChange={handleChange}required/>
                     <label htmlFor='email'>Email</label>
-                    <input type='email' id='email' name='email' placeholder='Email' required/>
+                    <input type='email' id='email' name='email' placeholder='Email' value={email} onChange={handleChange}required/>
                     <label htmlFor='message'>Message</label>
-                    <textarea id='message' name='message' placeholder='Message' required></textarea>
+                    <textarea id='message' name='message' placeholder='Message' value={message} onChange={handleChange}required></textarea>
                     <button type='submit'>Envoyer</button>
                 </form>
             </div>
