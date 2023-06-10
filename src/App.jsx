@@ -5,6 +5,7 @@ import Presentation from './components/Presentation'
 import SavoirFaire from './components/SavoirFaire'
 import Projets from './components/Projets'
 import Certifications from './components/Certifications'
+import Contact from './components/Contact'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       <SavoirFaire />
       <Projets />
       <Certifications />
+      <Contact />
     </>
   )
 }

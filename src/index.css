@@ -272,6 +272,40 @@ body {
   margin-top: 5vh;
 }
 
+.contact-main{
+  margin-top: -4vh;
+}
+
+.contact-main label, .contact-main button{
+  display: block;
+}
+
+.contact-main input, .contact-main textarea{
+  width: 80vw;
+  margin-bottom: -1vh;
+  border-radius: 25px;
+  border: 1px solid var(--color6);
+  padding: 1vh;
+  margin-left: 7vw;
+}
+
+.contact-main button{
+  margin-left: 7vw;
+  margin-top: 2vh;
+  width: 80vw;
+  border-radius: 25px;
+  border: 1px solid var(--color6);
+  padding: 1vh;
+  background-color: var(--color6);
+  color: var(--color5);
+  font-size: 20px;
+}
+
+.contact-main label{
+  margin-left: 7vw;
+  margin-top: 2vh;
+  font-size: 20px;
+}
 
 /**********  MEDIA QUERIES **********/
 /*Medium devices (tablets, less/equal than 1024px)*/
