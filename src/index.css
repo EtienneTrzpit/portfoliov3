@@ -509,4 +509,37 @@ body {
     margin-left: 30px;
   }
 
+  .cards{
+    width: 95vw;
+  }
+
+  .knowledge .cards-box{
+    margin-left: 0px;
+    margin-right: 0px; 
+  }
+
+  .projet{
+    width: 85vw;
+    height: 35vh;
+    margin-top: -10vh;
+    margin-left: -26vw;
+  }
+
+  .certification{
+    width: 85vw;
+    height: 35vh;
+  }
+
+  .contact-main input, .contact-main textarea {
+    width: 70vw;
+    margin-left: -15vw;
+    height: 4vh;
+  }
+
+  .consentement{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+
 }
