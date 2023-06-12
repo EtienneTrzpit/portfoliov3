@@ -186,7 +186,7 @@ body {
 
 .box-projects{
   text-align: center;
-  width: 45vw;
+  width: 35vw;
   background-color: var(--color4);
   border-radius: 25px;
   padding-top: 2vh;
@@ -239,10 +239,70 @@ body {
 
 .projet1{
   background-image: url('assets/RidingCities.png');
+  flex-basis: 30%;
+  width: 50px;
 }
 
 .projet2{
   background-image: url('assets/booki.jpg');
+  flex-basis: 30%;
+  width: 50px;
+}
+
+.projet3{
+  background-image: url('assets/booki.jpg');
+  flex-basis: 30%;
+  width: 50px;
+}
+
+.projet4{
+  background-image: url('assets/booki.jpg');
+  flex-basis: 30%;
+  width: 50px;
+}
+
+.projet5{
+  background-image: url('assets/booki.jpg');
+  flex-basis: 30%;
+  width: 50px;
+}
+
+.projet6{
+  background-image: url('assets/booki.jpg');
+  flex-basis: 30%;
+  width: 50px;
+}
+
+.projet7{
+  background-image: url('assets/booki.jpg');
+  flex-basis: 30%;
+  width: 50px;
+}
+
+.projet8{
+  background-image: url('assets/booki.jpg');
+  flex-basis: 30%;
+  width: 50px;
+}
+
+.projet9{
+  background-image: url('assets/booki.jpg');
+  flex-basis: 30%;
+  width: 50px;
+}
+
+.projet10{
+  background-image: url('assets/booki.jpg');
+  flex-basis: 30%;
+  width: 50px;
+}
+
+.projects .cards-main{
+  display: flex;
+}
+
+.projets .cards-box{
+  width: 30vw;
 }
 
 .certification{

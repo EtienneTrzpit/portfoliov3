@@ -22,6 +22,48 @@ const images = [
       numero: "projet2 projet",
       image: Booki,
     },
+    {
+      title: "Riding Cities",
+      subtitle: "Projet HTML avec ajout de plusieurs sections",
+      numero: "projet3 projet",
+      image: RidingCities,
+    },
+    {
+      title: "Booki",
+      subtitle: "Projet HTML et CSS avec responsive design",
+      numero: "projet4 projet",
+      image: Booki,
+    },
+    {
+      title: "Riding Cities",
+      subtitle: "Projet HTML avec ajout de plusieurs sections",
+      numero: "projet5 projet",
+      image: RidingCities,
+    },
+    {
+      title: "Booki",
+      subtitle: "Projet HTML et CSS avec responsive design",
+      numero: "projet6 projet",
+      image: Booki,
+    },
+    {
+      title: "Riding Cities",
+      subtitle: "Projet HTML avec ajout de plusieurs sections",
+      numero: "projet7 projet",
+      image: RidingCities,
+    },
+    {
+      title: "Booki",
+      subtitle: "Projet HTML et CSS avec responsive design",
+      numero: "projet8 projet",
+      image: Booki,
+    },
+    {
+      title: "Riding Cities",
+      subtitle: "Projet HTML avec ajout de plusieurs sections",
+      numero: "projet9 projet",
+      image: RidingCities,
+    }
   ];
   
   function typeOfWindow() {
@@ -33,10 +75,10 @@ const images = [
       return "mobile";
     }
   }
-  
+
   export default function Projets() {
     const [windowType, setWindowType] = useState("");
-  
+
     useEffect(() => {
       setWindowType(typeOfWindow());
       const resizeListener = () => {
@@ -47,20 +89,34 @@ const images = [
         window.removeEventListener("resize", resizeListener);
       };
     }, []);
-  
+
+    const [currentDesktop, setCurrentDesktop] = useState(1);
     const [current, setCurrent] = useState(0);
     const length = images.length;
-  
+
     const nextSlide = () => {
       setCurrent(current === length - 1 ? 0 : current + 1);
+      console.log(current);
     };
-  
+
     const prevSlide = () => {
       setCurrent(current === 0 ? length - 1 : current - 1);
+      console.log(current);
     };
-  
+
+    const nextSlideDesktop = () => {
+      setCurrentDesktop(currentDesktop === 7 ? 1 : currentDesktop + 3);
+      console.log(currentDesktop);
+    };
+
+    const prevSlideDesktop = () => {
+      setCurrentDesktop(currentDesktop === 1 ? 7 : currentDesktop - 3);
+      console.log(currentDesktop);
+    };
+
     if (windowType === "mobile" || windowType === "tablet") {
       return (
+        console.log(current),
         <section className="cards projects">
           <div className="cards-header">
             <FontAwesomeIcon icon={faCodeFork} size="2xl" />
@@ -96,32 +152,47 @@ const images = [
       );
     } else if (windowType === "desktop") {
       return (
+        console.log(currentDesktop),
         <section className="cards projects">
           <div className="cards-header">
             <FontAwesomeIcon icon={faCodeFork} size="2xl" />
             <h2 className="cards-header-title">Projets</h2>
           </div>
           <div className="cards-main">
-            <article className='projet1 projet'>
-              <h3 className="cards-box-title titles-projects">Riding Cities</h3>
-              <p>Projet HTML avec ajout de plusieurs sections</p>
-            </article>
+            {images.map((image, index) => {
+              return (
+                <article
+                  className={
+                    index === currentDesktop || index === currentDesktop - 1 || index === currentDesktop + 1
+                      ? "cards-box box-projects active"
+                      : "cards-box box-projects box-hidden"
+                  }
+                  key={index}
+                >
+                  {index === currentDesktop - 1 && <ProjetsImg image={image} />}
+                  {index === currentDesktop && <ProjetsImg image={image} />}
+                  {index === currentDesktop + 1 && <ProjetsImg image={image} />}
+                </article>
+              );
+            })}
             <FontAwesomeIcon
               icon={faChevronCircleLeft}
               className="left-arrow"
-              onClick={prevSlide}
+              onClick={prevSlideDesktop}
             />
             <FontAwesomeIcon
               icon={faChevronCircleRight}
               className="right-arrow"
-              onClick={nextSlide}
+              onClick={nextSlideDesktop}
             />
           </div>
         </section>
       );
     } else {
-      // windowType is "mobile" or "tablet", but here you can add a default
-      // behavior for an unexpected value of windowType
+      console.log("error");
       return <></>;
     }
-  }
+}
+  
+  
+  
