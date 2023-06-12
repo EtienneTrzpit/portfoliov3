@@ -128,7 +128,7 @@ const images = [
                 <article
                   className={
                     index === current
-                      ? "cards-box box-projects active"
+                      ? "cards-box box-projects box-active"
                       : "cards-box box-projects box-hidden"
                   }
                   key={index}
@@ -164,8 +164,8 @@ const images = [
                 <article
                   className={
                     index === currentDesktop || index === currentDesktop - 1 || index === currentDesktop + 1
-                      ? "cards-box box-projects active"
-                      : "cards-box box-projects box-hidden"
+                      ? "box-active"
+                      : "box-hidden"
                   }
                   key={index}
                 >

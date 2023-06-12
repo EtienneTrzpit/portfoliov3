@@ -27,8 +27,8 @@ body {
 
 .content{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projects{
@@ -37,6 +37,10 @@ body {
 
 .certifications{
   order: 2;
+}
+
+.certifications .cards-header{
+  margin-top: 0px;
 }
 
 .knowledge{
@@ -72,9 +76,9 @@ body {
   line-height: 50px;
 }
 
-.active {
+.box-active {
   background-color: var(--color5);
-  color: black;
+  width: 30%;
 }
 
 .presentation{
@@ -128,11 +132,13 @@ body {
   flex-direction: column;
   border-radius: 25px;
   height: 45vh;
-  margin-left: 2vw;
-  margin-right: 2vw;
-  overflow-x: auto;
+  width: 800px;
   position: relative;
-  width: calc(50% - 4vw);
+}
+
+.cards-main{
+  display: flex;
+  justify-content: space-around;
 }
 
 .cards-header{
@@ -148,6 +154,10 @@ body {
 
 .cards-main{
   display: flex;
+}
+
+.projects .cards-header{
+  margin-top: -20px;
 }
 
 .cards-box{
@@ -202,7 +212,6 @@ body {
 
 .box-certifications{
   background-color: var(--color4);
-  width: 500vw;
   position: absolute;
 }
 
@@ -227,82 +236,45 @@ body {
 }
 
 .projet{
-  background-size: cover;
-  background-position: 50% 70%;
-  background-repeat: no-repeat;
-  height: 31vh;
-  width: 96vw;
-  margin-bottom: 4vh;
-  margin-top: -4vh;
   color: white;
+  height: 300px;
+  margin-top: -100px;
 }
 
 .projet1{
   background-image: url('assets/RidingCities.png');
-  flex-basis: 30%;
-  width: 50px;
 }
 
 .projet2{
   background-image: url('assets/booki.jpg');
-  flex-basis: 30%;
-  width: 50px;
 }
 
 .projet3{
   background-image: url('assets/booki.jpg');
-  flex-basis: 30%;
-  width: 50px;
 }
 
 .projet4{
   background-image: url('assets/booki.jpg');
-  flex-basis: 30%;
-  width: 50px;
 }
 
 .projet5{
   background-image: url('assets/booki.jpg');
-  flex-basis: 30%;
-  width: 50px;
 }
 
 .projet6{
   background-image: url('assets/booki.jpg');
-  flex-basis: 30%;
-  width: 50px;
 }
 
 .projet7{
   background-image: url('assets/booki.jpg');
-  flex-basis: 30%;
-  width: 50px;
 }
 
 .projet8{
   background-image: url('assets/booki.jpg');
-  flex-basis: 30%;
-  width: 50px;
 }
 
 .projet9{
   background-image: url('assets/booki.jpg');
-  flex-basis: 30%;
-  width: 50px;
-}
-
-.projet10{
-  background-image: url('assets/booki.jpg');
-  flex-basis: 30%;
-  width: 50px;
-}
-
-.projects .cards-main{
-  display: flex;
-}
-
-.projets .cards-box{
-  width: 30vw;
 }
 
 .certification{
@@ -310,20 +282,24 @@ body {
   background-size: cover;
   background-position: 50% 70%;
   background-repeat: no-repeat;
-  height: 31vh;
-  width: 96vw;
+  height: 320px;
   margin-bottom: 4vh;
   margin-top: -4vh;
   color: white;
+  width: 750px;
 }
 
-.active p{
+.knowledge .cards-box{
+  margin-left: -200px;
+}
+
+.box-active p{
   margin-top: 18vh;
   text-align: center;
   background-color: var(--color1);
 }
 
-.active h3{
+.box-active h3{
   padding-top: 2vh;
   background-color: var(--color1);
 }
@@ -347,12 +323,11 @@ body {
 }
 
 .contact-main input, .contact-main textarea{
-  width: 80vw;
-  margin-bottom: -1vh;
+  width: 600px;
   border-radius: 25px;
   border: 1px solid var(--color6);
-  padding: 1vh;
-  margin-left: 7vw;
+  height: 40px;
+  color: white;
 }
 
 .contact-main textarea{
@@ -362,7 +337,7 @@ body {
 .contact-main button{
   margin-left: 7vw;
   margin-top: 2vh;
-  width: 80vw;
+  width: 100px;
   border-radius: 25px;
   border: 1px solid var(--color6);
   padding: 1vh;
@@ -372,7 +347,7 @@ body {
 }
 
 .contact-main label{
-  margin-left: 7vw;
+  margin-left: 0px;
   margin-top: 2vh;
   font-size: 20px;
 }
@@ -385,8 +360,13 @@ body {
 
 .contact{
   height: 80vh;
-  max-width: 100%;
-  overflow-x: hidden;
+  width: 800px;
+}
+
+.contact-main{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
 }
 
 .contact .cards-header{
@@ -402,20 +382,15 @@ body {
   font-size: 12px;
 }
 
-.projet{
-  width: 300px;
-  margin-right: 200px;
-}
-
 .box-hidden{
   display: inline-block;
   width: 100vw;
 }
 
-.projects .cards-main{
-  display: flex;
-  flex-direction: row;
+.box-hidden{
+  display: none;
 }
+
 
 
 /**********  MEDIA QUERIES **********/
@@ -429,10 +404,6 @@ body {
 
   .content{
     flex-direction: column;
-  }
-
-  .cards{
-    width: calc(100% - 4vw);
   }
 
   .knowledge{
@@ -536,11 +507,6 @@ body {
     font-size: 40px;
     margin-top: 30px;
     margin-left: 30px;
-  }
-
-  .box-projects{
-    width: 80vw;
-    margin: auto;
   }
 
 }
