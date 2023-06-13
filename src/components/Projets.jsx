@@ -117,7 +117,7 @@ const images = [
     if (windowType === "mobile" || windowType === "tablet") {
       return (
         console.log(current),
-        <section  ref={ref => props.cardRefs.current[0] = ref} className="cards projects">
+        <section  ref={ref => props.cardRefs.current[0] = ref} className="cards projects" id='projets'>
           <div className="cards-header">
             <FontAwesomeIcon icon={faCodeFork} size="2xl" />
             <h2 className="cards-header-title">Projets</h2>
@@ -153,7 +153,7 @@ const images = [
     } else if (windowType === "desktop") {
       return (
         console.log(currentDesktop),
-        <section  ref={ref => props.cardRefs.current[0] = ref} className="cards projects">
+        <section  ref={ref => props.cardRefs.current[0] = ref} className="cards projects" id='projets'>
           <div className="cards-header">
             <FontAwesomeIcon icon={faCodeFork} size="2xl" />
             <h2 className="cards-header-title">Projets</h2>

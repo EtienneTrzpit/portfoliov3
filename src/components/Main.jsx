@@ -10,26 +10,22 @@ export default function Main(){
 
     const cardRefs = useRef([]);
     useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
                     entry.target.classList.add('section-active');
-                    console.log("reussie");
-            }
-            else {
-        entry.target.classList.remove('section-active');
-        }
+                    console.log("réussie");
+                }
+                else {
+                    entry.target.classList.remove('section-active');
+                }
+        }), { threshold: 0.5 };
     });
-  });
-  cardRefs.current.forEach(ref => observer.observe(ref));
+    cardRefs.current.forEach(ref => observer.observe(ref));
 }, []);
 
-
-
-
-    
     return (
-        <main className='content'>
+        <main className='content' id='presentation'>
             <Presentation />
             <SavoirFaire cardRefs={cardRefs}/>
             <Projets cardRefs={cardRefs}/>

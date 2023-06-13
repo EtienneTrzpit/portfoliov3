@@ -8,7 +8,7 @@ import { faSass } from '@fortawesome/free-brands-svg-icons'
 
 export default function SavoirFaire(props) {
     return(
-        <section  ref={ref => props.cardRefs.current[1] = ref} className='cards knowledge'>
+        <section  ref={ref => props.cardRefs.current[1] = ref} className='cards knowledge' id='savoir-faire'>
             <div className='cards-header'>
                 <FontAwesomeIcon icon={faBrain} size='2xl'/>
                 <h2 className='cards-header-title'>Savoir-Faire</h2>

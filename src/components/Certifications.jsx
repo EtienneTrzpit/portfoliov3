@@ -49,7 +49,7 @@ export default function Certifications(props){
         setCurrent(current === 0 ? length - 1 : current - 1)
     };
 return (
-    <section  ref={ref => props.cardRefs.current[2] = ref} className="cards certifications">
+    <section  ref={ref => props.cardRefs.current[2] = ref} className="cards certifications" id='certifications'>
         <div className='cards-header'>
             <FontAwesomeIcon icon={faGraduationCap} size='2xl'/>
             <h2 className='cards-header-title'>Certifications</h2>

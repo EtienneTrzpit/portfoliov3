@@ -40,7 +40,7 @@ export default function Contact(props) {
     }
 
     return(
-        <section  ref={ref => props.cardRefs.current[3] = ref} className='cards contact'>
+        <section  ref={ref => props.cardRefs.current[3] = ref} className='cards contact' id='contact'>
             <div className='cards-header'>
                 <FontAwesomeIcon icon={faEnvelope} size='2xl'/>
                 <h2 className='cards-header-title'>Contact</h2>
