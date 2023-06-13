@@ -35,7 +35,7 @@ const images = [
 
 ];
 
-export default function Projets(){
+export default function Certifications(props){
 
     
     const [current, setCurrent] = useState(0)
@@ -49,7 +49,7 @@ export default function Projets(){
         setCurrent(current === 0 ? length - 1 : current - 1)
     };
 return (
-    <section className="cards certifications">
+    <section  ref={ref => props.cardRefs.current[2] = ref} className="cards certifications">
         <div className='cards-header'>
             <FontAwesomeIcon icon={faGraduationCap} size='2xl'/>
             <h2 className='cards-header-title'>Certifications</h2>
