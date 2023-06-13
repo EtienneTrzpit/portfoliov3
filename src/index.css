@@ -572,10 +572,27 @@ body {
     height: 4vh;
   }
 
+  .contact-main label{
+    font-size: 14px;
+    margin-left: -12vw;
+  }
+
+  .contact-main textarea{
+    height: 14vh;
+  }
+
+  input::placeholder, textarea::placeholder{
+    position: relative;
+    padding-left: 3vw;
+    
+  }
+
   .consentement{
-    font-size: 10px;
     display: flex;
     align-items: center;
   }
 
+  .consentement label{
+    margin-left: 0vw;
+  }
 }
