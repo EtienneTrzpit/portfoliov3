@@ -19,7 +19,7 @@ export default function Main(){
                 else {
                     entry.target.classList.remove('section-active');
                 }
-        }), { threshold: 0.5 };
+        }), { threshold: 1 };
     });
     cardRefs.current.forEach(ref => observer.observe(ref));
 }, []);
