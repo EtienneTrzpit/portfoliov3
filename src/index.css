@@ -267,38 +267,47 @@ body {
 
 .projet1{
   background-image: url('assets/RidingCities.png');
+  background-position: center;
 }
 
 .projet2{
   background-image: url('assets/booki.jpg');
+  background-position: center;
 }
 
 .projet3{
-  background-image: url('assets/booki.jpg');
+  background-image: url('assets/food.jpg');
+  background-position: center;
 }
 
 .projet4{
-  background-image: url('assets/booki.jpg');
+  background-image: url('assets/print.png');
+  background-position: center;
 }
 
 .projet5{
-  background-image: url('assets/booki.jpg');
+  background-image: url('assets/sophie.png');
+  background-position: center;
 }
 
 .projet6{
-  background-image: url('assets/booki.jpg');
+  background-image: url('assets/kasa.png');
+  background-position: center;
 }
 
 .projet7{
-  background-image: url('assets/booki.jpg');
+  background-image: url('assets/bank-tree.jpeg');
+  background-position: center;
 }
 
 .projet8{
   background-image: url('assets/booki.jpg');
+  background-position: center;
 }
 
 .projet9{
   background-image: url('assets/booki.jpg');
+  background-position: center;
 }
 
 .certification{
