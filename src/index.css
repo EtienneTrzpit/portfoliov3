@@ -433,6 +433,21 @@ body {
   .header-top{
     display: flex;
     justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+  }
+
+  .name{
+    font-size: 40px;
+    width: 20vw;
+  }
+
+  .title{
+    margin-top: 2vh;
+    width: 90vw;
+    text-align: center;
+    margin-left: 10vw;
   }
 
   .content{
@@ -543,6 +558,8 @@ body {
     font-size: 40px;
     margin-top: 30px;
     margin-left: 30px;
+    text-align: left;
+    width: auto;
   }
 
   .cards{
@@ -564,6 +581,7 @@ body {
   .certification{
     width: 85vw;
     height: 35vh;
+    margin-top: -6vh;
   }
 
   .contact-main input, .contact-main textarea {
@@ -594,5 +612,22 @@ body {
 
   .consentement label{
     margin-left: 0vw;
+  }
+
+  .projects .cards-header{
+    margin-top: 0vh;
+  }
+
+  .certifications .cards-header{
+    margin-top: 2vh;
+  }
+
+  .active{
+    height: 35vh;
+  }
+
+  .header-top{
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
