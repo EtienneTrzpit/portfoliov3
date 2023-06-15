@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
+import logo from '../assets/logo.svg'
 
 export default function Header() {
 
@@ -11,9 +12,9 @@ export default function Header() {
         setActiveMenu(answer);
     }
     return(
-        <header>
+        <header className='menu-top'>
             <nav className='header-top'>
-                <p className='name'>ETIENNE TRZPIT</p>
+                <img src={logo} alt='logo' className='logo' />
                 <FontAwesomeIcon icon={faBars} size="4x" className='hamburger' onClick={() => handleItemClick(true)} />
                 <div className={activeMenu ? 'hamburger-menu' : 'hamburger-menu-hidden'}>
                     <FontAwesomeIcon icon={faXmark} size="2xl" className='mark-menu' onClick={() => handleItemClick(false)} />

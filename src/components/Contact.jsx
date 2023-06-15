@@ -56,7 +56,7 @@ export default function Contact(props) {
                     {/* formulaire de consentement RGPD */}
                     <div className='consentement'>
                         <input type='checkbox' id='consentement' name='consentement' required/>
-                        <label htmlFor='consentement'>J'accepte que les informations saisies dans ce formulaire soient utilisées pour me recontacter dans le cadre de ma demande, conformément à notre politique de confidentialité.</label>
+                        <label htmlFor='consentement'>Je consens à ce que ce site stocke les informations que j’ai envoyées afin de pouvoir répondre à ma demande.</label>
                     </div>
                     <button type='submit'>Envoyer</button>
                 </form>
