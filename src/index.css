@@ -220,14 +220,14 @@ body {
   height: 4vh;
 }
 
-.box-projects{
+/*.box-projects{
   text-align: center;
   width: 35vw;
   background-color: var(--color4);
   border-radius: 25px;
   padding-top: 2vh;
   height: 30vh;
-}
+}*/
 
 .titles-projects{
   margin-left: auto;
@@ -262,24 +262,24 @@ body {
 }
 
 .projet{
-  color: white;
+  color: var(--color6);
   height: 300px;
   margin-top: -100px;
 }
 
 .projet1{
-  background-image: url('assets/RidingCities.png');
+  background-image: url('assets/ridingcitiesblur.png');
   background-position: center;
 }
 
 .projet2{
-  background-image: url('assets/booki.jpg');
+  background-image: url('assets/booki.png');
   background-position: center;
 }
 
 .projet3{
-  background-image: url('assets/food.jpg');
-  background-position: center;
+  background-image: url('assets/food.png');
+  background-position: 30% 20%;
 }
 
 .projet4{
@@ -298,18 +298,18 @@ body {
 }
 
 .projet7{
-  background-image: url('assets/bank-tree.jpeg');
-  background-position: center;
+  background-image: url('assets/nina.png');
+  background-position: 54% 5%;
 }
 
 .projet8{
-  background-image: url('assets/booki.jpg');
+  background-image: url('assets/724events.png');
   background-position: center;
 }
 
 .projet9{
-  background-image: url('assets/booki.jpg');
-  background-position: center;
+  background-image: url('assets/bank.png');
+  background-position: 28% 70%;
 }
 
 .certification{
@@ -331,12 +331,12 @@ body {
 .box-active p{
   margin-top: 18vh;
   text-align: center;
-  background-color: var(--color1);
+  /*background-color: var(--color1);*/
 }
 
 .box-active h3{
   padding-top: 2vh;
-  background-color: var(--color1);
+ /* background-color: var(--color1);*/
 }
 
 .certification h3{
@@ -503,7 +503,9 @@ body {
   }
 
   .subtitle{
-    display: none;
+    margin-left: 8vw;
+    margin-top: 7vh;
+    text-align: center;
   }
 
   .title{
@@ -562,7 +564,7 @@ body {
 
   .logo {
     top: -5vh;
-    left: -15vw;
+    left: -12vw;
     width: 70vw;
     position: fixed;
     z-index: 200;
@@ -572,21 +574,26 @@ body {
     position: fixed;
     z-index: 100;
     top: 2vh;
-    right: 5vw;
+    right: 7vw;
     color: white;
     background-color: #464646;
     padding-top: 3vh;
     padding-bottom: 3vh;
-    padding-left: 75vw;
+    padding-left: 70vw;
+    padding-right: 4vw;
     border-radius: 25px;
   }
 
   .title{
     font-size: 40px;
-    margin-top: 30px;
-    margin-left: 30px;
-    text-align: left;
+    margin-left: 25vw;
+    text-align: center;
     width: auto;
+  }
+
+  .subtitle{
+    font-size : 10vw;
+    margin-left: 25vw;
   }
 
   .cards{
@@ -601,8 +608,9 @@ body {
   .projet{
     width: 85vw;
     height: 35vh;
-    margin-top: -10vh;
-    margin-left: -26vw;
+    margin-top: -6vh;
+    margin-left: -2vw;
+    color: #1e1e1e;
   }
 
   .certification{
@@ -656,5 +664,15 @@ body {
   .header-top{
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .projet h3{
+    font-size: 10vw;
+  }
+
+  .projet p{
+    font-size: 6vw;
+    line-height: 8vw;
+    padding-bottom: 50px;
   }
 }
