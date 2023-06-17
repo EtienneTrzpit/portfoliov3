@@ -103,7 +103,7 @@ const images = [
       console.log(currentDesktop);
     };
 
-    if (windowType === "mobile" || windowType === "tablet") {
+    if (windowType === "mobile") {
       return (
         console.log(current),
         <section  ref={ref => props.cardRefs.current[0] = ref} className="cards projects" id='projets'>
@@ -139,7 +139,7 @@ const images = [
           </div>
         </section>
       );
-    } else if (windowType === "desktop") {
+    } else if (windowType === "desktop" || windowType === "tablet") {
       return (
         console.log(currentDesktop),
         <section  ref={ref => props.cardRefs.current[0] = ref} className="cards projects" id='projets'>
