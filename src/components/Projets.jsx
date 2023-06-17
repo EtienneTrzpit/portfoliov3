@@ -1,9 +1,7 @@
 import '../index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faChevronCircleLeft} from '@fortawesome/free-solid-svg-icons'
-import {faChevronCircleRight} from '@fortawesome/free-solid-svg-icons'
-import Booki from '../assets/Booki.jpg'
-import RidingCities from '../assets/RidingCities.png'
+import { faChevronCircleLeft } from '@fortawesome/free-solid-svg-icons'
+import { faChevronCircleRight } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
 import { faCodeFork } from '@fortawesome/free-solid-svg-icons'
 import ProjetsImg from './ProjetsImg'
@@ -14,55 +12,46 @@ const images = [
       title: "Riding Cities",
       subtitle: "Projet HTML avec ajout de plusieurs sections",
       numero: "projet1 projet",
-      image: RidingCities,
     },
     {
       title: "Booki",
       subtitle: "Projet HTML et CSS avec responsive design",
       numero: "projet2 projet",
-      image: Booki,
     },
     {
       title: "Ohmyfood",
       subtitle: "Projet en cours de réalisation",
       numero: "projet3 projet",
-      image: RidingCities,
     },
     {
       title: "Print it",
       subtitle: "Projet en cours de réalisation",
       numero: "projet4 projet",
-      image: Booki,
     },
     {
       title: "Sophie Bluel",
       subtitle: "Projet en cours de réalisation",
       numero: "projet5 projet",
-      image: RidingCities,
     },
     {
       title: "Kasa",
       subtitle: "Projet en cours de réalisation",
       numero: "projet6 projet",
-      image: Booki,
     },
     {
       title: "SEO Nina",
       subtitle: "Projet en cours de réalisation",
       numero: "projet7 projet",
-      image: RidingCities,
     },
     {
       title: "724 Events",
       subtitle: "Projet en cours de réalisation",
       numero: "projet8 projet",
-      image: Booki,
     },
     {
       title: "Argent Bank",
       subtitle: "Projet en cours de réalisation",
       numero: "projet9 projet",
-      image: RidingCities,
     }
   ];
   

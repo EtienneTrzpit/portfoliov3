@@ -247,7 +247,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   font-size: 50px;
-  color: var(--color6);
+  color: white;
   cursor: pointer;
 }
 
@@ -257,7 +257,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   font-size: 50px;
-  color: var(--color6);
+  color: white;
   cursor: pointer;
 }
 
@@ -270,56 +270,63 @@ body {
 .projet1{
   background-image: url('assets/ridingcitiesblur.png');
   background-position: center;
+  background-size: cover;
 }
 
 .projet2{
   background-image: url('assets/booki.png');
   background-position: center;
+  background-size: cover;
 }
 
 .projet3{
   background-image: url('assets/food.png');
-  background-position: 30% 20%;
+  background-position: center;
+  background-size: cover;
 }
 
 .projet4{
   background-image: url('assets/print.png');
   background-position: center;
+  background-size: cover;
 }
 
 .projet5{
   background-image: url('assets/sophie.png');
   background-position: center;
+  background-size: cover;
 }
 
 .projet6{
   background-image: url('assets/kasa.png');
   background-position: center;
+  background-size: cover;
 }
 
 .projet7{
   background-image: url('assets/nina.png');
-  background-position: 54% 5%;
+  background-position: center;
+  background-size: cover;
 }
 
 .projet8{
   background-image: url('assets/724events.png');
   background-position: center;
+  background-size: cover;
 }
 
 .projet9{
   background-image: url('assets/bank.png');
-  background-position: 28% 70%;
+  background-position: center;
+  background-size: cover;
 }
 
 .certification{
-  background-color: var(--color4);
   background-size: cover;
   background-position: 50% 70%;
   background-repeat: no-repeat;
   height: 320px;
-  margin-bottom: 4vh;
-  margin-top: -4vh;
+  margin-top: -100px;
   color: white;
   width: 750px;
 }
@@ -339,12 +346,7 @@ body {
  /* background-color: var(--color1);*/
 }
 
-.certification h3{
-  background-color: var(--color4);
-}
-
 .certification p{
-  background-color: var(--color4);
   font-size: 32px;
   margin-top: 5vh;
 }
@@ -426,6 +428,23 @@ body {
   display: none;
 }
 
+.certifications article{
+  background-image: url('assets/certifications.png');
+  background-size: cover;
+  background-position: 50% 40%;
+}
+
+.certifications h3{
+  padding-top: 6vh;
+}
+
+.certifications p{
+  text-align: center;
+}
+
+.certification-active{
+  height: 32vh;
+}
 
 
 /**********  MEDIA QUERIES **********/
@@ -610,7 +629,7 @@ body {
     height: 35vh;
     margin-top: -6vh;
     margin-left: -2vw;
-    color: #1e1e1e;
+    color: white;
   }
 
   .certification{
@@ -675,4 +694,9 @@ body {
     line-height: 8vw;
     padding-bottom: 50px;
   }
+
+.certification-active{
+  margin-bottom: 20px;
+}
+
 }

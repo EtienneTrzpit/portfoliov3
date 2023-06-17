@@ -57,7 +57,7 @@ return (
         <div className='cards-main'>
         {images.map((image, index) => {
             return (  
-                <article className={index === current ? /*'cards-box box-projects*/ 'active' : 'cards-box box-projects box-hidden'} key={index}>
+                <article className={index === current ? /*'cards-box box-projects*/ 'certification-active' : 'cards-box box-projects box-hidden'} key={index}>
                     {index === current && (
                         <CertificationsImg image={image} />
                     )}
