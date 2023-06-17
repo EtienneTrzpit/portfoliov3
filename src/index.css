@@ -352,7 +352,7 @@ body {
 }
 
 .contact-main{
-  margin-top: -4vh;
+  margin-top: -2vh;
 }
 
 .contact-main label, .contact-main button{
@@ -364,7 +364,7 @@ body {
   border-radius: 25px;
   border: 1px solid var(--color6);
   height: 40px;
-  color: white;
+  color: var(--color6);
 }
 
 .contact-main textarea{
@@ -396,7 +396,7 @@ body {
 }
 
 .contact{
-  height: 80vh;
+  height: 70vh;
   width: 800px;
 }
 
