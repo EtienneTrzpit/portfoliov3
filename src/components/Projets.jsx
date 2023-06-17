@@ -58,7 +58,7 @@ const images = [
   function typeOfWindow() {
     if (window.innerWidth > 1024) {
       return "desktop";
-    } else if (window.innerWidth > 768) {
+    } else if (window.innerWidth > 767) {
       return "tablet";
     } else {
       return "mobile";
