@@ -614,6 +614,7 @@ body {
     padding-left: 70vw;
     padding-right: 4vw;
     border-radius: 25px;
+    border: var(--color6) 4px solid;
     transform: translateZ(0px);
   }
 
@@ -653,7 +654,7 @@ body {
     right: 7vw;
     color: var(--color6);
     background-color: var(--color5);
-    border: var(--color6) solid 2px;
+    border: var(--color6) solid 4px;
     padding-top: 3vh;
     padding-bottom: 3vh;
     padding-left: 70vw;
