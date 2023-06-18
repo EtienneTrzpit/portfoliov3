@@ -65,6 +65,11 @@ body {
   }
 }
 
+input::placeholder, textarea::placeholder{
+  position: relative;
+  padding-left: 2vw;
+}
+
 .section-active{
   animation: 1s ease-out 0s 1 slideInFromLeft;
 }
@@ -184,7 +189,6 @@ body {
   height: 45vh;
   width: 800px;
   position: relative;
-  /*border: #C9F0DC solid 5px;*/
 }
 
 .cards-main{
@@ -244,15 +248,6 @@ body {
   width: 23vw;
   height: 4vh;
 }
-
-/*.box-projects{
-  text-align: center;
-  width: 35vw;
-  background-color: var(--color4);
-  border-radius: 25px;
-  padding-top: 2vh;
-  height: 30vh;
-}*/
 
 .titles-projects{
   margin-left: auto;
@@ -361,6 +356,8 @@ body {
 
 .contact-main{
   margin-top: -2vh;
+  margin-left: 10vw;
+  width: 22vw;
 }
 
 .contact-main label, .contact-main button{
@@ -368,7 +365,7 @@ body {
 }
 
 .contact-main input, .contact-main textarea{
-  width: 600px;
+  width: 400px;
   border-radius: 25px;
   border: 1px solid var(--color6);
   height: 40px;
@@ -392,7 +389,7 @@ body {
 }
 
 .contact-main label{
-  margin-left: 0px;
+  margin-left: 1vw;
   margin-top: 2vh;
   font-size: 20px;
 }
@@ -411,7 +408,6 @@ body {
 .contact-main{
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
 }
 
 .contact .cards-header{
@@ -425,12 +421,7 @@ body {
   margin-top: 2vh;
   justify-content: center;
   align-items: center;
-  margin-right: 15vw;
   font-size: 12px;
-}
-
-.contact button{
-  margin-left: 12vw;
 }
 
 .box-hidden{
@@ -473,23 +464,15 @@ body {
     margin-top: 0vh;
   }
 
-  .content{
-    perspective: 1000px;
-    transform-style: preserve-3d;
-    position: relative;
-  }
-
   .contact-main{
-    margin-left: 10vw;
-  }
-
-  .contact-main button{
-    margin-left: 30vw;
+    margin-left: 25vw;
+    width: 40vw;
   }
 
   .content{
     position: relative;
     margin-top: 15vh;
+    margin-bottom: 3vh;
     z-index: 0;
     overflow: hidden;
   }
@@ -615,22 +598,13 @@ body {
     padding-right: 4vw;
     border-radius: 25px;
     border: var(--color6) 4px solid;
-    transform: translateZ(0px);
   }
 
   .cards{
     width: 95vw;
-    transform: translateZ(-100px);
-  }
-
-  input::placeholder, textarea::placeholder{
-    position: relative;
-    padding-left: 3vw;
-    
   }
 
   .contact-main label{
-    margin-left: 2vw;
     margin-top: 2vh;
     font-size: 20px;
   }
@@ -638,6 +612,7 @@ body {
   .consentement{
     margin-left: 2vw;
   }
+
 }
 
 /*Small devices (phones, less/equal than 768px)*/
@@ -675,11 +650,12 @@ body {
   }
 
   .contact-main{
-    margin-left: 25vw;
+    margin-left: 12vw;
+    width: 70vw;
   }
 
   .contact-main button{
-    margin-left: 8vw;
+    margin-left: 22vw;
   }
 
 
@@ -704,13 +680,11 @@ body {
 
   .contact-main input, .contact-main textarea {
     width: 70vw;
-    margin-left: -15vw;
     height: 4vh;
   }
 
   .contact-main label{
     font-size: 14px;
-    margin-left: -12vw;
   }
 
   .contact-main textarea{
@@ -778,6 +752,5 @@ body {
   color: white;
   cursor: pointer;
 }
-
 
 }
