@@ -2,6 +2,7 @@ import '../index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faChevronCircleLeft} from '@fortawesome/free-solid-svg-icons'
 import {faChevronCircleRight} from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function ProjetsImg({image}) {
 
@@ -9,7 +10,10 @@ export default function ProjetsImg({image}) {
 
     return (
         <div className={numero} key={image.numero}>
-            <h3 className='cards-box-title titles-projects'>{image.title}</h3>
+            <div className='titles-projects'>
+                <FontAwesomeIcon icon={faGithub} size='2x' className='github'/>
+                <h3 className='cards-box-title'>{image.title}</h3>
+            </div>
             <p>{image.subtitle}</p>         
         </div>
     )
