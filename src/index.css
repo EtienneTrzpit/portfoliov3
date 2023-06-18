@@ -473,6 +473,12 @@ body {
     margin-top: 0vh;
   }
 
+  .content{
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+
   .contact-main{
     margin-left: 10vw;
   }
@@ -550,7 +556,7 @@ body {
   .hamburger-menu{
     padding-top: 10vh;
     display: block;
-    z-index: 1;
+    z-index: 200;
     position: fixed;
     top: 0;
     right: 0;
@@ -601,17 +607,19 @@ body {
     z-index: 100;
     top: 2vh;
     right: 7vw;
-    color: white;
-    background-color: #464646;
+    color: var(--color6);
+    background-color: var(--color5);
     padding-top: 3vh;
     padding-bottom: 3vh;
     padding-left: 70vw;
     padding-right: 4vw;
     border-radius: 25px;
+    transform: translateZ(0px);
   }
 
   .cards{
     width: 95vw;
+    transform: translateZ(-100px);
   }
 
   input::placeholder, textarea::placeholder{
@@ -643,8 +651,9 @@ body {
     z-index: 100;
     top: 2vh;
     right: 7vw;
-    color: white;
-    background-color: #464646;
+    color: var(--color6);
+    background-color: var(--color5);
+    border: var(--color6) solid 2px;
     padding-top: 3vh;
     padding-bottom: 3vh;
     padding-left: 70vw;
