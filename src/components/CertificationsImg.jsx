@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../index.css'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 export default function CertificationsImg({image}) {
 
@@ -9,12 +9,11 @@ export default function CertificationsImg({image}) {
     return (
         <div className={numero} key={image.numero}>
             <div className='titles-projects'>
-                <FontAwesomeIcon icon={faGithub} size='2x'/>
-                <h3 className='cards-box-title '>
-                <FontAwesomeIcon icon={image.title} size='4x'/>
+                <FontAwesomeIcon icon={faFileArrowDown} size='2x' className='download'/>
+                <h3>
+                <FontAwesomeIcon icon={image.title} size='4x' className='name-certification' />
                 </h3>
-            </div>
-            
+            </div>       
             <p>{image.subtitle}</p>         
         </div>
     )

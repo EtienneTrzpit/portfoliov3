@@ -25,6 +25,11 @@ body {
   margin: 0;
 }
 
+.download{
+  position: absolute;
+  left: 4vw;
+  top: 14vh;
+}
 .left-arrow{
   position: absolute;
   left: 2vw;
@@ -250,11 +255,19 @@ input::placeholder, textarea::placeholder{
 }
 
 .titles-projects{
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   margin-top: 4vh;
   margin-bottom: 4vh;
 }
+
+.name-certification{
+  margin-left: 24vw;
+  margin-top: -6vh;
+}
+
 
 .box-certifications{
   background-color: var(--color4);
@@ -434,12 +447,14 @@ input::placeholder, textarea::placeholder{
 }
 
 .certifications article{
+  width: 95vw;
   background-image: url('assets/certifications.png');
   background-size: cover;
   background-position: 50% 40%;
 }
 
 .certifications h3{
+  margin-left: -20vw;
   padding-top: 12vh;
 }
 
@@ -613,6 +628,23 @@ input::placeholder, textarea::placeholder{
     margin-left: 2vw;
   }
 
+
+  .certification .github{
+      position: absolute;
+      right: 10vw;
+      top: 13vh;
+  }
+
+  .certification .titles-projects{
+    margin-top: 10vh;
+    margin-left: 10vw;
+  }
+
+  .github{
+    position: relative;
+    margin-left: 4vw;
+  }
+
 }
 
 /*Small devices (phones, less/equal than 768px)*/
@@ -751,6 +783,12 @@ input::placeholder, textarea::placeholder{
   font-size: 50px;
   color: white;
   cursor: pointer;
+}
+
+.github{
+  position: absolute;
+  right: 10vw;
+  top: 10vh;
 }
 
 }
