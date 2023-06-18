@@ -1,4 +1,4 @@
-import photo from '../assets/photo-personnelle.png';
+import photo from '../assets/images/photo-personnelle.png';
 
 export default function Presentation() {
     return (

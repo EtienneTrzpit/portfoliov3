@@ -284,55 +284,55 @@ input::placeholder, textarea::placeholder{
 
 
 .projet1{
-  background-image: url('assets/ridingcitiesblur.png');
+  background-image: url('assets/images/ridingcitiesblur.png');
   background-position: center;
   background-size: cover;
 }
 
 .projet2{
-  background-image: url('assets/booki.png');
+  background-image: url('assets/images/booki.png');
   background-position: center;
   background-size: cover;
 }
 
 .projet3{
-  background-image: url('assets/food.png');
+  background-image: url('assets/images/food.png');
   background-position: center;
   background-size: cover;
 }
 
 .projet4{
-  background-image: url('assets/print.png');
+  background-image: url('assets/images/print.png');
   background-position: center;
   background-size: cover;
 }
 
 .projet5{
-  background-image: url('assets/sophie.png');
+  background-image: url('assets/images/sophie.png');
   background-position: center;
   background-size: cover;
 }
 
 .projet6{
-  background-image: url('assets/kasa.png');
+  background-image: url('assets/images/kasa.png');
   background-position: center;
   background-size: cover;
 }
 
 .projet7{
-  background-image: url('assets/nina.png');
+  background-image: url('assets/images/nina.png');
   background-position: center;
   background-size: cover;
 }
 
 .projet8{
-  background-image: url('assets/724events.png');
+  background-image: url('assets/images/724events.png');
   background-position: center;
   background-size: cover;
 }
 
 .projet9{
-  background-image: url('assets/bank.png');
+  background-image: url('assets/images/bank.png');
   background-position: center;
   background-size: cover;
 }
@@ -448,7 +448,7 @@ input::placeholder, textarea::placeholder{
 
 .certifications article{
   width: 95vw;
-  background-image: url('assets/certifications.png');
+  background-image: url('assets/images/certifications.png');
   background-size: cover;
   background-position: 50% 40%;
 }
