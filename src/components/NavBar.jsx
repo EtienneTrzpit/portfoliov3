@@ -16,19 +16,17 @@ export default function NavBar() {
             const certifications = document.getElementById('certifications').offsetTop;
             const savoirFaire = document.getElementById('savoir-faire').offsetTop;
             const contact = document.getElementById('contact').offsetTop;
-            if (currentScrollY < presentation) {
+            if (currentScrollY < presentation + 400) {
                 setActiveItem('item1');
-            } else if (currentScrollY >= presentation && currentScrollY < projets) {
-                setActiveItem('item1');
-            } else if (currentScrollY >= projets && currentScrollY < certifications) {
+            } else if (currentScrollY >= presentation + 400 && currentScrollY < projets - 100) {
                 setActiveItem('item3');
-            } else if (currentScrollY >= certifications && currentScrollY < savoirFaire) {
+            } else if (currentScrollY >= projets -100 && currentScrollY < certifications - 100) {
                 setActiveItem('item4');
-            } else if (currentScrollY >= savoirFaire && currentScrollY < contact) {
+            } else if (currentScrollY >= certifications - 100 && currentScrollY < savoirFaire -100) {
                 setActiveItem('item2');
-            } else if (currentScrollY >= contact) {
+            } else if (currentScrollY >= savoirFaire -100 && currentScrollY < contact -100) {
                 setActiveItem('item5');
-            }
+            } 
         }
         window.addEventListener('scroll', handleScroll);
         return () => {
