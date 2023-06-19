@@ -18,13 +18,13 @@ export default function NavBar() {
             const contact = document.getElementById('contact').offsetTop;
             if (currentScrollY < presentation + 400) {
                 setActiveItem('item1');
-            } else if (currentScrollY >= presentation + 400 && currentScrollY < projets - 100) {
+            } else if (currentScrollY >= presentation + 400 && currentScrollY < projets) {
                 setActiveItem('item3');
-            } else if (currentScrollY >= projets -100 && currentScrollY < certifications - 100) {
+            } else if (currentScrollY >= projets + 400 && currentScrollY < certifications) {
                 setActiveItem('item4');
-            } else if (currentScrollY >= certifications - 100 && currentScrollY < savoirFaire -100) {
+            } else if (currentScrollY >= certifications + 400  && currentScrollY < savoirFaire) {
                 setActiveItem('item2');
-            } else if (currentScrollY >= savoirFaire -100 && currentScrollY < contact -100) {
+            } else if (currentScrollY >= savoirFaire + 400) {
                 setActiveItem('item5');
             } 
         }
