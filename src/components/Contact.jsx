@@ -46,7 +46,7 @@ export default function Contact(props) {
                 <h2 className='cards-header-title'>Contact</h2>
             </div>
             <div className='cards-main contact-main'>
-                <form onSubmit={handleSubmit} method='POST' data-netlify='true'>
+                <form name='portfolio-contact' onSubmit={handleSubmit} method='POST' data-netlify='true'>
                     <label htmlFor='name'>Nom</label>
                     <input type='text' id='name' name='name' placeholder='Nom' value={name} onChange={handleChange}required/>
                     <label htmlFor='email'>Email</label>
