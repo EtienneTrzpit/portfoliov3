@@ -264,8 +264,8 @@ input::placeholder, textarea::placeholder{
 }
 
 .name-certification{
-  margin-left: 24vw;
-  margin-top: -6vh;
+  margin-left: 2vw;
+  margin-top: 2vh;
 }
 
 
@@ -483,6 +483,11 @@ input::placeholder, textarea::placeholder{
     margin-top: 0vh;
   }
 
+  .name-certification{
+    margin-top: -6vh;
+    margin-left: -15vw;
+  }
+
   .contact-main{
     margin-left: 25vw;
     width: 40vw;
@@ -656,6 +661,10 @@ input::placeholder, textarea::placeholder{
 
   .certification p{
     font-size: 19px;
+  }
+
+  .cards-box-title{
+    margin-right: 14vw;
   }
 
   .hamburger {
