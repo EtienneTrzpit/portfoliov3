@@ -14,21 +14,25 @@ const images = [
         title: faSass,
         subtitle: 'Simplifiez-vous le CSS avec Sass',
         numero: 'certification',
+        pdf: 'sass.pdf',
     },
     {
         title: faReact,
         subtitle: 'Débutez avec React',
         numero: 'certification',
+        pdf: 'react.pdf',
     },
     {
         title: faFigma,
         subtitle: 'Créez une maquette web avec Figma',
         numero: 'certification',
+        pdf: 'figma.pdf',
     },
     {
         title: faCss3Alt,
         subtitle: 'Créez des animations CSS modernes',
         numero: 'certification',
+        pdf: 'css3.pdf',
     }
 
 
