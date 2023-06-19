@@ -112,6 +112,7 @@ input::placeholder, textarea::placeholder{
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 400;
 }
 
 .navbar ul{
@@ -474,7 +475,7 @@ input::placeholder, textarea::placeholder{
 /**********  MEDIA QUERIES **********/
 /*Medium devices (tablets, less/equal than 1024px)*/
 
-@media (max-width: 1023px){
+@media (max-width: 1024px){
   .header-top{
     display: flex;
     justify-content: space-between;
