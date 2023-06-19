@@ -12,11 +12,13 @@ const images = [
       title: "Riding Cities",
       subtitle: "Projet HTML avec ajout de plusieurs sections",
       numero: "projet1 projet",
+      link: "https://github.com/EtienneTrzpit/site-Riding-Citites",
     },
     {
       title: "Booki",
       subtitle: "Projet HTML et CSS avec responsive design",
       numero: "projet2 projet",
+      link: "https://github.com/EtienneTrzpit/booki-starter-code",
     },
     {
       title: "Ohmyfood",

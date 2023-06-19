@@ -11,7 +11,9 @@ export default function ProjetsImg({image}) {
     return (
         <div className={numero} key={image.numero}>
             <div className='titles-projects'>
-                <FontAwesomeIcon icon={faGithub} size='2x' className='github'/>
+                <a href={image.link} target='_blank'>
+                    <FontAwesomeIcon icon={faGithub} size='2x' className='github'/>
+                </a>
                 <h3 className='cards-box-title'>{image.title}</h3>
             </div>
             <p>{image.subtitle}</p>         

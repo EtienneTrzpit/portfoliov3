@@ -466,6 +466,10 @@ input::placeholder, textarea::placeholder{
   height: 32vh;
 }
 
+.cards a{
+  color: white;
+}
+
 
 /**********  MEDIA QUERIES **********/
 /*Medium devices (tablets, less/equal than 1024px)*/
