@@ -35,7 +35,6 @@ export default function Contact(props) {
     if (validateEmail(email)) {
       alert("Votre message a bien été envoyé");
     } else {
-      e.preventDefault();
       alert("Veuillez entrer une adresse email valide");
     }
   }
