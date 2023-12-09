@@ -1,21 +1,24 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
 :root {
-  --color1: #1B065E;
-  --color2: #FF47DA;
-  --color3: #FF87AB;
-  --color4: #FCC8C2;
-  --color5: #F7DF94;
-  --color6: #1E1E1E;
+  --color1: #1b065e;
+  --color2: #ff47da;
+  --color3: #ff87ab;
+  --color4: #fcc8c2;
+  --color5: #f7df94;
+  --color6: #1e1e1e;
 }
 
 body {
@@ -25,12 +28,12 @@ body {
   margin: 0;
 }
 
-.download{
+.download {
   position: absolute;
   left: 4vw;
   top: 14vh;
 }
-.left-arrow{
+.left-arrow {
   position: absolute;
   left: 2vw;
   top: 50%;
@@ -40,7 +43,7 @@ body {
   cursor: pointer;
 }
 
-.right-arrow{
+.right-arrow {
   position: absolute;
   right: 2vw;
   top: 50%;
@@ -55,7 +58,7 @@ body {
   text-decoration: none;
 }
 
-.content{
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,40 +73,40 @@ body {
   }
 }
 
-input::placeholder, textarea::placeholder{
+input::placeholder,
+textarea::placeholder {
   position: relative;
   padding-left: 2vw;
 }
 
-.section-active{
+.section-active {
   animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
-.active{
+.active {
   background-color: var(--color5);
   color: var(--color6);
 }
 
-.projects{
+.projects {
   order: 1;
 }
 
-.certifications{
+.certifications {
   order: 2;
 }
 
-.certifications .cards-header{
+.certifications .cards-header {
   margin-top: 0px;
 }
 
-.knowledge{
+.knowledge {
   order: 3;
 }
 
-.contact{
+.contact {
   order: 4;
 }
-
 
 .navbar {
   border-bottom: white solid 1px;
@@ -115,14 +118,13 @@ input::placeholder, textarea::placeholder{
   z-index: 400;
 }
 
-.navbar ul{
+.navbar ul {
   list-style-type: none;
   display: flex;
   padding-left: 0px;
   margin-bottom: 0px;
   margin-top: 0px;
   height: 50px;
-  
 }
 
 .navbar li {
@@ -135,7 +137,7 @@ input::placeholder, textarea::placeholder{
   width: 30%;
 }
 
-.presentation{
+.presentation {
   font-family: Oswald, sans-serif;
   margin-top: 250px;
   text-align: center;
@@ -146,45 +148,45 @@ input::placeholder, textarea::placeholder{
   margin-bottom: 100px;
 }
 
-.content{
+.content {
   max-width: 1432px;
   margin: 0 auto;
 }
 
-.presentation-txt{
+.presentation-txt {
   flex-basis: 25%;
   margin-right: 100px;
 }
 
-.presentation-img{
+.presentation-img {
   width: 172px;
   height: 243px;
 }
 
-.subtitle{
+.subtitle {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 50px;
 }
 
-.title{
+.title {
   font-size: 60px;
   font-weight: normal;
 }
 
-.header-top{
+.header-top {
   display: none;
 }
 
-.hamburger-menu{
+.hamburger-menu {
   display: none;
 }
 
-.hamburger-menu-hidden{
+.hamburger-menu-hidden {
   display: none;
 }
 
-.cards{
+.cards {
   display: flex;
   justify-content: space-around;
   margin-top: 5vh;
@@ -197,65 +199,65 @@ input::placeholder, textarea::placeholder{
   position: relative;
 }
 
-.cards-main{
+.cards-main {
   display: flex;
   justify-content: space-around;
 }
 
-.cards-header{
+.cards-header {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 2vh;
 }
 
-.cards-header-title{
+.cards-header-title {
   margin-left: 5vw;
 }
 
-.cards-main{
+.cards-main {
   display: flex;
 }
 
-.projects .cards-header{
+.projects .cards-header {
   margin-top: -20px;
 }
 
-.cards-box{
+.cards-box {
   margin-left: 2vw;
   width: fit-content;
   margin-bottom: 2vh;
 }
 
-.cards-box-title{
+.cards-box-title {
   margin-bottom: 2vh;
   width: fit-content;
 }
 
-.box-knowledge{
+.box-knowledge {
   padding-left: 5vw;
 }
 
-.titles-knowledge{
+.titles-knowledge {
   border-bottom: 5px solid var(--color6);
 }
 
-.knowledge li{
+.knowledge li {
   list-style-type: none;
   margin-top: 2vh;
 }
 
-.knowledge-icons{
+.knowledge-icons {
   margin-right: 5vw;
 }
 
-.img{
+.img {
   object-fit: cover;
   width: 23vw;
   height: 4vh;
 }
 
-.titles-projects{
+.titles-projects {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -264,81 +266,77 @@ input::placeholder, textarea::placeholder{
   margin-bottom: 4vh;
 }
 
-.name-certification{
+.name-certification {
   margin-left: 2vw;
   margin-top: 2vh;
 }
 
-
-.box-certifications{
+.box-certifications {
   background-color: var(--color4);
   position: absolute;
 }
 
-
-
-.projet{
+.projet {
   color: white;
   height: 300px;
   margin-top: -100px;
 }
 
-
-.projet1{
-  background-image: url('assets/images/ridingcitiesblur.png');
+.projet1 {
+  background-image: url("assets/images/ridingcitiesblur.avif");
   background-position: center;
   background-size: cover;
 }
 
-.projet2{
-  background-image: url('assets/images/booki.png');
+.projet2 {
+  background-image: url("assets/images/booki.avif");
   background-position: center;
   background-size: cover;
 }
 
-.projet3{
-  background-image: url('assets/images/food.png');
+.projet3 {
+  background-image: url("assets/images/food.avif");
   background-position: center;
   background-size: cover;
 }
 
-.projet4{
-  background-image: url('assets/images/print.png');
+.projet4 {
+  background-image: url("assets/images/print.avif");
   background-position: center;
   background-size: cover;
 }
 
-.projet5{
-  background-image: url('assets/images/sophie.png');
+.projet5 {
+  background-image: url("assets/images/sophie.avif");
   background-position: center;
   background-size: cover;
 }
 
-.projet6{
-  background-image: url('assets/images/kasa.png');
+.projet6 {
+  background-image: url("assets/images/kasa.avif");
   background-position: center;
   background-size: cover;
 }
 
-.projet7{
-  background-image: url('assets/images/nina.png');
+.projet7 {
+  background-image: url("assets/images/nina.avif");
   background-position: center;
   background-size: cover;
 }
 
-.projet8{
-  background-image: url('assets/images/724events.png');
+.projet8 {
+  background-image: url("assets/images/724events.avif");
   background-position: center;
   background-size: cover;
 }
 
-.projet9{
-  background-image: url('assets/images/bank.png');
+.projet9 {
+  background-image: url("assets/images/bank.avif");
   background-position: center;
   background-size: cover;
 }
 
-.certification{
+.certification {
   background-size: cover;
   background-position: 50% 70%;
   background-repeat: no-repeat;
@@ -348,37 +346,39 @@ input::placeholder, textarea::placeholder{
   width: 730px;
 }
 
-.knowledge .cards-box{
+.knowledge .cards-box {
   margin-left: -200px;
 }
 
-.box-active p{
+.box-active p {
   margin-top: 18vh;
   text-align: center;
   /*background-color: var(--color1);*/
 }
 
-.box-active h3{
+.box-active h3 {
   padding-top: 2vh;
- /* background-color: var(--color1);*/
+  /* background-color: var(--color1);*/
 }
 
-.certification p{
+.certification p {
   font-size: 32px;
   margin-top: 5vh;
 }
 
-.contact-main{
+.contact-main {
   margin-top: -2vh;
   margin-left: 10vw;
   width: 22vw;
 }
 
-.contact-main label, .contact-main button{
+.contact-main label,
+.contact-main button {
   display: block;
 }
 
-.contact-main input, .contact-main textarea{
+.contact-main input,
+.contact-main textarea {
   width: 400px;
   border-radius: 25px;
   border: 1px solid var(--color6);
@@ -386,11 +386,11 @@ input::placeholder, textarea::placeholder{
   color: var(--color6);
 }
 
-.contact-main textarea{
+.contact-main textarea {
   height: 12vh;
 }
 
-.contact-main button{
+.contact-main button {
   margin-left: 7vw;
   margin-top: 2vh;
   width: 100px;
@@ -402,34 +402,34 @@ input::placeholder, textarea::placeholder{
   font-size: 20px;
 }
 
-.contact-main label{
+.contact-main label {
   margin-left: 1vw;
   margin-top: 2vh;
   font-size: 20px;
 }
 
-.copyright{
+.copyright {
   margin: 1vh;
   text-align: center;
   font-size: 12px;
 }
 
-.contact{
+.contact {
   height: 70vh;
   width: 800px;
 }
 
-.contact-main{
+.contact-main {
   display: flex;
   flex-direction: column;
 }
 
-.contact .cards-header{
+.contact .cards-header {
   margin-bottom: -10vh;
   margin-top: -5vh;
 }
 
-.consentement{
+.consentement {
   display: flex;
   flex-direction: row;
   margin-top: 2vh;
@@ -438,45 +438,44 @@ input::placeholder, textarea::placeholder{
   font-size: 12px;
 }
 
-.box-hidden{
+.box-hidden {
   display: inline-block;
   width: 100vw;
 }
 
-.box-hidden{
+.box-hidden {
   display: none;
 }
 
-.certifications article{
+.certifications article {
   width: 95vw;
-  background-image: url('assets/images/certifications.png');
+  background-image: url("assets/images/certifications.avif");
   background-size: cover;
   background-position: 50% 40%;
 }
 
-.certifications h3{
+.certifications h3 {
   margin-left: -20vw;
   padding-top: 12vh;
 }
 
-.certifications p{
+.certifications p {
   text-align: center;
 }
 
-.certification-active{
+.certification-active {
   height: 32vh;
 }
 
-.cards a{
+.cards a {
   color: white;
 }
-
 
 /**********  MEDIA QUERIES **********/
 /*Medium devices (tablets, less/equal than 1024px)*/
 
-@media (max-width: 1024px){
-  .header-top{
+@media (max-width: 1024px) {
+  .header-top {
     display: flex;
     justify-content: space-between;
     margin-left: 5vw;
@@ -484,17 +483,17 @@ input::placeholder, textarea::placeholder{
     margin-top: 0vh;
   }
 
-  .name-certification{
+  .name-certification {
     margin-top: -6vh;
     margin-left: -15vw;
   }
 
-  .contact-main{
+  .contact-main {
     margin-left: 25vw;
     width: 40vw;
   }
 
-  .content{
+  .content {
     position: relative;
     margin-top: 15vh;
     margin-bottom: 3vh;
@@ -502,39 +501,39 @@ input::placeholder, textarea::placeholder{
     overflow: hidden;
   }
 
-  .name{
+  .name {
     font-size: 40px;
     width: 20vw;
   }
 
-  .title{
+  .title {
     margin-top: 2vh;
     width: 90vw;
     text-align: center;
     margin-left: 10vw;
   }
 
-  .content{
+  .content {
     flex-direction: column;
   }
 
-  .knowledge{
+  .knowledge {
     order: 1;
   }
 
-  .projects{
+  .projects {
     order: 2;
   }
 
-  .certifications{
+  .certifications {
     order: 3;
   }
 
-  .contact{
+  .contact {
     order: 4;
   }
 
-  .section-active{
+  .section-active {
     animation: none;
   }
 
@@ -542,26 +541,26 @@ input::placeholder, textarea::placeholder{
     display: none;
   }
 
-  .presentation-img{
+  .presentation-img {
     display: none;
   }
 
-  .subtitle{
+  .subtitle {
     margin-left: 8vw;
     margin-top: 7vh;
     text-align: center;
   }
 
-  .title{
+  .title {
     content: "Intégrateur Web en développement en React";
   }
 
-  .presentation{
+  .presentation {
     margin: 0px;
     text-align: left;
   }
 
-  .hamburger-menu{
+  .hamburger-menu {
     padding-top: 10vh;
     display: block;
     z-index: 200;
@@ -577,27 +576,27 @@ input::placeholder, textarea::placeholder{
     font-size: 24px;
   }
 
-  .mark-menu{
+  .mark-menu {
     position: absolute;
     right: 2vh;
     top: 2vh;
   }
 
-  .list-sections{
+  .list-sections {
     margin-top: 10vh;
     font-weight: bold;
   }
 
-  .list-sections li{
+  .list-sections li {
     margin-bottom: 5vh;
   }
 
-  .list-sections li a{
+  .list-sections li a {
     color: var(--color6);
     text-decoration: none;
   }
 
-  .box-hidden{
+  .box-hidden {
     display: none;
   }
 
@@ -625,46 +624,43 @@ input::placeholder, textarea::placeholder{
     border: var(--color6) 4px solid;
   }
 
-  .cards{
+  .cards {
     width: 95vw;
   }
 
-  .contact-main label{
+  .contact-main label {
     margin-top: 2vh;
     font-size: 20px;
   }
 
-  .consentement{
+  .consentement {
     margin-left: 2vw;
   }
 
-
-  .certification .github{
-      position: absolute;
-      right: 10vw;
-      top: 13vh;
+  .certification .github {
+    position: absolute;
+    right: 10vw;
+    top: 13vh;
   }
 
-  .certification .titles-projects{
+  .certification .titles-projects {
     margin-top: 10vh;
     margin-left: 10vw;
   }
 
-  .github{
+  .github {
     position: relative;
     margin-left: 4vw;
   }
-
 }
 
 /*Small devices (phones, less/equal than 768px)*/
-@media (max-width: 767px){
-
-  .certification p{
+@media (max-width: 767px) {
+  .certification p {
     font-size: 19px;
   }
 
-  .cards-box-title{
+  .cards-box-title {
     margin-right: 14vw;
   }
 
@@ -683,34 +679,33 @@ input::placeholder, textarea::placeholder{
     border-radius: 25px;
   }
 
-  .title{
+  .title {
     font-size: 40px;
     margin-left: 25vw;
     text-align: center;
     width: auto;
   }
 
-  .subtitle{
-    font-size : 10vw;
+  .subtitle {
+    font-size: 10vw;
     margin-left: 25vw;
   }
 
-  .contact-main{
+  .contact-main {
     margin-left: 12vw;
     width: 70vw;
   }
 
-  .contact-main button{
+  .contact-main button {
     margin-left: 22vw;
   }
 
-
-  .knowledge .cards-box{
+  .knowledge .cards-box {
     margin-left: 0px;
-    margin-right: 0px; 
+    margin-right: 0px;
   }
 
-  .projet{
+  .projet {
     width: 85vw;
     height: 35vh;
     margin-top: -6vh;
@@ -718,91 +713,91 @@ input::placeholder, textarea::placeholder{
     color: white;
   }
 
-  .certification{
+  .certification {
     width: 85vw;
     height: 35vh;
     margin-top: -6vh;
   }
 
-  .contact-main input, .contact-main textarea {
+  .contact-main input,
+  .contact-main textarea {
     width: 70vw;
     height: 4vh;
   }
 
-  .contact-main label{
+  .contact-main label {
     font-size: 14px;
   }
 
-  .contact-main textarea{
+  .contact-main textarea {
     height: 14vh;
   }
 
-  .consentement{
+  .consentement {
     display: flex;
     align-items: center;
     margin-left: -5vw;
     margin-right: 18vw;
   }
 
-  .consentement label{
+  .consentement label {
     margin-left: 0vw;
   }
 
-  .projects .cards-header{
+  .projects .cards-header {
     margin-top: 0vh;
   }
 
-  .certifications .cards-header{
+  .certifications .cards-header {
     margin-top: 2vh;
   }
 
-  .active{
+  .active {
     height: 35vh;
   }
 
-  .header-top{
+  .header-top {
     margin-left: 0px;
     margin-right: 0px;
   }
 
-  .projet h3{
+  .projet h3 {
     font-size: 10vw;
   }
 
-  .projet p{
+  .projet p {
     font-size: 19px;
     line-height: 8vw;
     padding-bottom: 50px;
   }
 
-.certification-active{
-  margin-bottom: 20px;
-}
+  .certification-active {
+    margin-bottom: 20px;
+  }
 
-.left-arrow{
-  position: absolute;
-  left: 10vw;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 50px;
-  color: white;
-  cursor: pointer;
-}
+  .left-arrow {
+    position: absolute;
+    left: 10vw;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+  }
 
-.right-arrow{
-  position: absolute;
-  right: 10vw;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 50px;
-  color: white;
-  cursor: pointer;
-}
+  .right-arrow {
+    position: absolute;
+    right: 10vw;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+  }
 
-.github{
-  position: absolute;
-  right: 10vw;
-  top: 10vh;
-}
-
+  .github {
+    position: absolute;
+    right: 10vw;
+    top: 10vh;
+  }
 }
