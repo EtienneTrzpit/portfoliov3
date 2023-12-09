@@ -30,14 +30,14 @@ export default function Contact(props) {
         break;
     }
   }
-
+  /*
   function handleSubmit(e) {
     if (validateEmail(email)) {
       alert("Votre message a bien été envoyé");
     } else {
       alert("Veuillez entrer une adresse email valide");
     }
-  }
+  }*/
 
   return (
     <section
@@ -50,15 +50,9 @@ export default function Contact(props) {
         <h2 className="cards-header-title">Contact</h2>
       </div>
       <div className="cards-main contact-main">
-        {/* Formulaire caché pour Netlify */}
-        <form name="portfolio-contact" data-netlify="true" hidden>
-          <input type="text" name="name" />
-          <input type="email" name="email" />
-          <textarea name="message"></textarea>
-        </form>
         <form
           name="portfolio-contact"
-          onSubmit={handleSubmit}
+          onSubmit="submit"
           method="POST"
           data-netlify="true"
         >
