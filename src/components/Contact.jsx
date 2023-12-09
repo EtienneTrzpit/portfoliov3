@@ -4,7 +4,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 export default function Contact(props) {
-  const [name, setName] = useState("");
+  /* const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
@@ -30,7 +30,7 @@ export default function Contact(props) {
         break;
     }
   }
-  /*
+  
   function handleSubmit(e) {
     if (validateEmail(email)) {
       alert("Votre message a bien été envoyé");
@@ -50,57 +50,20 @@ export default function Contact(props) {
         <h2 className="cards-header-title">Contact</h2>
       </div>
       <div className="cards-main contact-main">
-        <form
-          name="portfolio-contact"
-          onSubmit="submit"
-          method="POST"
-          data-netlify="true"
-        >
-          <label htmlFor="name">Nom</label>
-          <input
-            autoComplete="on"
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Nom"
-            value={name}
-            onChange={handleChange}
-            required
-          />
-          <label htmlFor="email">Email</label>
-          <input
-            autoComplete="on"
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Email"
-            value={email}
-            onChange={handleChange}
-            required
-          />
-          <label htmlFor="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Message"
-            value={message}
-            onChange={handleChange}
-            required
-          ></textarea>
-          {/* formulaire de consentement RGPD */}
-          <div className="consentement">
-            <input
-              type="checkbox"
-              id="consentement"
-              name="consentement"
-              required
-            />
-            <label htmlFor="consentement">
-              Je consens à ce que ce site stocke les informations que j’ai
-              envoyées afin de pouvoir répondre à ma demande.
+        <form name="contact" netlify>
+          <p>
+            <label>
+              Name <input type="text" name="name" />
             </label>
-          </div>
-          <button type="submit">Envoyer</button>
+          </p>
+          <p>
+            <label>
+              Email <input type="email" name="email" />
+            </label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
         </form>
       </div>
     </section>
