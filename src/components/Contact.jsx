@@ -50,15 +50,21 @@ export default function Contact(props) {
         <h2 className="cards-header-title">Contact</h2>
       </div>
       <div className="cards-main contact-main">
-        <form name="contact" netlify>
+        <form name="contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>
-              Name <input type="text" name="name" />
+              Your Name: <input type="text" name="name" />
             </label>
           </p>
           <p>
             <label>
-              Email <input type="email" name="email" />
+              Your Email: <input type="email" name="email" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Message: <textarea name="message"></textarea>
             </label>
           </p>
           <p>
