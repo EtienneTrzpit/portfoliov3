@@ -18,20 +18,36 @@ export default function Contact(props) {
           <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>
-              Ton nom: <input type="text" name="name" />
+              Ton nom:{" "}
+              <input className="message" type="text" name="name" required />
             </label>
           </p>
           <p>
             <label>
-              Ton Email: <input type="email" name="email" />
+              Ton Email:{" "}
+              <input className="message" type="email" name="email" required />
             </label>
           </p>
           <p>
             <label>
-              Message: <textarea name="message"></textarea>
+              Message:{" "}
+              <textarea className="message" name="message" required></textarea>
             </label>
           </p>
           <p>
+            {/* formulaire de consentement RGPD */}
+            <div className="consentement">
+              <input
+                type="checkbox"
+                id="consentement"
+                name="consentement"
+                required
+              />
+              <label htmlFor="consentement">
+                Je consens à ce que ce site stocke les informations que j’ai
+                envoyées afin de pouvoir répondre à ma demande.
+              </label>
+            </div>
             <button type="submit">Envoyer</button>
           </p>
         </form>
