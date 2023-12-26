@@ -28,6 +28,10 @@ body {
   margin: 0;
 }
 
+a {
+  color: inherit; /* Fait en sorte que les liens utilisent la couleur de texte de leur parent */
+}
+
 .download {
   position: absolute;
   left: 4vw;
@@ -409,9 +413,12 @@ textarea::placeholder {
 }
 
 .copyright {
-  margin: 1vh;
+  margin-top: 1rem;
   text-align: center;
   font-size: 12px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact {
@@ -478,6 +485,58 @@ textarea::placeholder {
   padding-bottom: 0.5vh;
 }
 
+.pages {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 12rem;
+}
+
+.pages .pages-link {
+  background-color: #f7df94;
+  box-sizing: border-box;
+  color: #1e1e1e;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  padding: 0.2rem 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  width: 12rem;
+}
+/* pages about */
+
+.logo-about {
+  width: 19rem;
+}
+
+.about-link a {
+  background-color: var(--color1);
+  color: var(--color5);
+}
+
+.about-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  font-size: 1.5rem;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.about-title {
+  font-size: 2rem;
+  margin-top: 2em;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about-footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
 /**********  MEDIA QUERIES **********/
 /*Medium devices (tablets, less/equal than 1024px)*/
 

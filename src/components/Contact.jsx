@@ -19,22 +19,39 @@ export default function Contact(props) {
           <p>
             <label>
               Ton nom:{" "}
-              <input className="message" type="text" name="name" required />
+              <input
+                className="message"
+                type="text"
+                name="name"
+                required
+                autoComplete="on"
+              />
             </label>
           </p>
           <p>
             <label>
               Ton Email:{" "}
-              <input className="message" type="email" name="email" required />
+              <input
+                className="message"
+                type="email"
+                name="email"
+                required
+                autoComplete="on"
+              />
             </label>
           </p>
           <p>
             <label>
               Message:{" "}
-              <textarea className="message" name="message" required></textarea>
+              <textarea
+                className="message"
+                name="message"
+                required
+                autoComplete="on"
+              ></textarea>
             </label>
           </p>
-          <p>
+          <div>
             {/* formulaire de consentement RGPD */}
             <div className="consentement">
               <input
@@ -42,6 +59,7 @@ export default function Contact(props) {
                 id="consentement"
                 name="consentement"
                 required
+                autoComplete="on"
               />
               <label htmlFor="consentement">
                 Je consens à ce que ce site stocke les informations que j’ai
@@ -49,7 +67,7 @@ export default function Contact(props) {
               </label>
             </div>
             <button type="submit">Envoyer</button>
-          </p>
+          </div>
         </form>
       </div>
     </section>
