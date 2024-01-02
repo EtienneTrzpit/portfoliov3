@@ -5,10 +5,12 @@ import LegalNotice from "./routes/LegalNotice";
 import Cookies from "./routes/Cookies";
 import Error from "./routes/Error";
 import ErrorBoundary from "./components/ErrorBoundary";
+import ToTop from "./components/ToTop";
 
 function App() {
   return (
     <ErrorBoundary>
+      <ToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/confidentiality" element={<Confidentiality />} />
