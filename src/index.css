@@ -547,6 +547,10 @@ textarea::placeholder {
   display: flex;
   flex-direction: column;
 }
+.left-arrow,
+.right-arrow {
+  user-select: none;
+}
 /**********  MEDIA QUERIES **********/
 /*Medium devices (tablets, less/equal than 1024px)*/
 
