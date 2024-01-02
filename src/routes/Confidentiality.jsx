@@ -26,7 +26,10 @@ function Confidentiality() {
             </li>
             <li>
               <strong>« Service »</strong> : le service
-              https://etiennetrzpit.com/ et l'ensemble de ses contenus.
+              <a href="https://etiennetrzpit.com/">
+                https://etiennetrzpit.com/
+              </a>
+              et l'ensemble de ses contenus.
             </li>
             <li>
               <strong>« Editeur »</strong> ou <strong>« Nous »</strong> :
@@ -93,36 +96,39 @@ function Confidentiality() {
             obstacle en modifiant les paramètres concernés de votre navigateur
             internet, comme expliqué dans les conditions générales du présent
             Service. D’une manière générale, il vous est possible de visiter le
-            Service https://etiennetrzpit.com/ sans communiquer aucune
-            information personnelle vous concernant. Dans tous les cas, vous
-            n’avez aucune obligation de transmettre ces informations. Néanmoins,
-            en cas de refus, il se peut que vous ne puissiez pas bénéficier de
-            certaines informations ou services. Nous recueillons, utilisons et
-            partageons également des données agrégées telles que des données
-            statistiques ou démographiques quel qu’en soit l’usage. Les données
-            agrégées peuvent provenir de vos informations personnelles mais ne
-            sont pas concernées comme telles par la loi car ces données ne
-            révèlent pas directement votre identité. Par exemple, nous pouvons
-            agréger vos données d’utilisation afin de calculer le pourcentage
-            d’utilisateurs qui accèdent à une fonctionnalité spécifique du
-            Service. Aux fins de fournir de meilleurs contenus et services, le
-            Service https://etiennetrzpit.com/ utilise le service d’analyse de
-            Google Analytics. Google Analytics ne suit pas vos habitudes de
-            navigation sur des services tiers. Les informations vous concernant
-            auxquelles Google Analytics a accès ne contiennent aucune donnée
-            personnelle vous concernant. Nous ne collectons pas de données dites
-            « sensibles ». Les coordonnées des Utilisateurs du Service qui se
-            seront inscrits sur celui-ci seront sauvegardées, dans le respect
-            des dispositions de la loi informatique et liberté du 6 janvier
-            1978. Conformément à cette dernière, ils disposent d’un droit
-            d’accès, de retrait, de modification ou de rectification des Données
-            qu’ils ont fournies. Pour cela, il leur suffit d’en faire la demande
-            à l’adresse électronique suivante : etienne.trzpit@free.fr, ou par
-            courrier : 8 rue Georges 92250 La Garenne-Colombes. La collecte des
-            Données personnelles des Utilisateurs par l'Editeur ne nécessite pas
-            de déclaration auprès de l’autorité française de protection des
-            Données personnelles (la Commission Nationale de l’Informatique et
-            des Libertés – CNIL).
+            Service
+            <a href="https://etiennetrzpit.com/">https://etiennetrzpit.com/</a>
+            sans communiquer aucune information personnelle vous concernant.
+            Dans tous les cas, vous n’avez aucune obligation de transmettre ces
+            informations. Néanmoins, en cas de refus, il se peut que vous ne
+            puissiez pas bénéficier de certaines informations ou services. Nous
+            recueillons, utilisons et partageons également des données agrégées
+            telles que des données statistiques ou démographiques quel qu’en
+            soit l’usage. Les données agrégées peuvent provenir de vos
+            informations personnelles mais ne sont pas concernées comme telles
+            par la loi car ces données ne révèlent pas directement votre
+            identité. Par exemple, nous pouvons agréger vos données
+            d’utilisation afin de calculer le pourcentage d’utilisateurs qui
+            accèdent à une fonctionnalité spécifique du Service. Aux fins de
+            fournir de meilleurs contenus et services, le Service
+            <a href="https://etiennetrzpit.com/">https://etiennetrzpit.com/</a>
+            utilise le service d’analyse de Google Analytics. Google Analytics
+            ne suit pas vos habitudes de navigation sur des services tiers. Les
+            informations vous concernant auxquelles Google Analytics a accès ne
+            contiennent aucune donnée personnelle vous concernant. Nous ne
+            collectons pas de données dites « sensibles ». Les coordonnées des
+            Utilisateurs du Service qui se seront inscrits sur celui-ci seront
+            sauvegardées, dans le respect des dispositions de la loi
+            informatique et liberté du 6 janvier 1978. Conformément à cette
+            dernière, ils disposent d’un droit d’accès, de retrait, de
+            modification ou de rectification des Données qu’ils ont fournies.
+            Pour cela, il leur suffit d’en faire la demande à l’adresse
+            électronique suivante : etienne.trzpit@free.fr, ou par courrier : 8
+            rue Georges 92250 La Garenne-Colombes. La collecte des Données
+            personnelles des Utilisateurs par l'Editeur ne nécessite pas de
+            déclaration auprès de l’autorité française de protection des Données
+            personnelles (la Commission Nationale de l’Informatique et des
+            Libertés – CNIL).
           </p>
         </section>
         <section>
@@ -324,7 +330,10 @@ function Confidentiality() {
             adresser une plainte ou une demande auprès de l’autorité compétente.
             En France, l’autorité compétente est la CNIL à laquelle vous pouvez
             adresser une demande par voie électronique à l'adresse suivante :
-            https://www.cnil.fr/fr/plaintes/internet.
+            <a href="https://www.cnil.fr/fr/plaintes/internet">
+              https://www.cnil.fr/fr/plaintes/internet
+            </a>
+            .
           </p>
         </section>
         <section>
@@ -333,14 +342,15 @@ function Confidentiality() {
           </h2>
           <p>
             Lors de votre première utilisation du Service
-            https://etiennetrzpit.com/, vous êtes avertis par un bandeau que des
-            informations relatives à votre navigation sont susceptibles d’être
-            enregistrées dans des fichiers alphanumériques dénommés « cookies ».
-            Notre politique d’utilisation des cookies vous permet de mieux
-            comprendre les dispositions que nous mettons en œuvre en matière de
-            navigation sur notre Service. Elle vous informe notamment sur
-            l’ensemble des cookies présents sur notre Service, leur finalité et
-            vous donne la marche à suivre pour les paramétrer.
+            <a href="https://etiennetrzpit.com/">https://etiennetrzpit.com/</a>,
+            vous êtes avertis par un bandeau que des informations relatives à
+            votre navigation sont susceptibles d’être enregistrées dans des
+            fichiers alphanumériques dénommés « cookies ». Notre politique
+            d’utilisation des cookies vous permet de mieux comprendre les
+            dispositions que nous mettons en œuvre en matière de navigation sur
+            notre Service. Elle vous informe notamment sur l’ensemble des
+            cookies présents sur notre Service, leur finalité et vous donne la
+            marche à suivre pour les paramétrer.
           </p>
           <h3 className="about-title">
             a) Informations générales sur les cookies présents sur le site
@@ -367,27 +377,32 @@ function Confidentiality() {
             cookies identifient, vous trouverez un tableau listant les
             différents types de cookies susceptibles d’être utilisés sur le
             Service de Etienne Trzpit, leur nom, leur finalité ainsi que leur
-            durée de conservation à l'adresse https://etiennetrzpit.com/cookies.
-          </p>{" "}
+            durée de conservation à l'adresse{" "}
+            <a href="https://etiennetrzpit.com/cookies">
+              https://etiennetrzpit.com/cookies
+            </a>
+            .
+          </p>
           <h3 className="about-title">
             b) Configuration de vos préférences sur les cookies
-          </h3>{" "}
+          </h3>
           <p>
             Vous pouvez accepter ou refuser le dépôt de cookies à tout moment.
             Lors de votre première utilisation du Service
-            https://etiennetrzpit.com/, une bannière présentant brièvement des
-            informations relatives au dépôt de cookies et de technologies
-            similaires apparaît en bas de votre écran. Cette bannière vous
-            avertit qu’en poursuivant votre navigation sur le Service de Etienne
-            Trzpit (en chargeant une nouvelle page ou en cliquant sur divers
-            éléments du Service par exemple), vous acceptez le dépôt de cookies
-            sur votre terminal. Selon le type de cookie en cause, le recueil de
-            votre consentement au dépôt et à la lecture de cookies sur votre
-            terminal peut être impératif.{" "}
+            <a href="https://etiennetrzpit.com/">https://etiennetrzpit.com/</a>,
+            une bannière présentant brièvement des informations relatives au
+            dépôt de cookies et de technologies similaires apparaît en bas de
+            votre écran. Cette bannière vous avertit qu’en poursuivant votre
+            navigation sur le Service de Etienne Trzpit (en chargeant une
+            nouvelle page ou en cliquant sur divers éléments du Service par
+            exemple), vous acceptez le dépôt de cookies sur votre terminal.
+            Selon le type de cookie en cause, le recueil de votre consentement
+            au dépôt et à la lecture de cookies sur votre terminal peut être
+            impératif.
           </p>
           <h3 className="about-title">
             c) Les cookies exemptés de consentement
-          </h3>{" "}
+          </h3>
           <p>
             Conformément aux recommandations de la Commission Nationale de
             l’Informatique et des Libertés (CNIL), certains cookies sont
@@ -400,11 +415,11 @@ function Confidentiality() {
             votre interface. Ces cookies sont intégralement soumis à la présente
             politique dans la mesure où ils sont émis et gérés par Etienne
             Trzpit.
-          </p>{" "}
+          </p>
           <h3 className="about-title">
             d) Les cookies nécessitant le recueil préalable de votre
             consentement
-          </h3>{" "}
+          </h3>
           <p>
             Cette exigence concerne les cookies émis par des tiers et qui sont
             qualifiés de « persistants » dans la mesure où ils demeurent dans
@@ -420,12 +435,15 @@ function Confidentiality() {
             et l’utilisation de divers éléments du Service (comme les contenus /
             pages que vous avez visité). Ces données participent à
             l’amélioration de l’ergonomie du Service. Sur le Service
-            https://etiennetrzpit.com/, un outil de mesure d’audience (Google
-            Analytics) est utilisé ; sa politique de confidentialité est
-            disponible en français à l'adresse internet suivante :
-            https://www.google.com/analytics/learn/privacy.html
-          </p>{" "}
-          <h3 className="about-title">e) Outils de paramétrage des cookies</h3>{" "}
+            <a href="https://etiennetrzpit.com/">https://etiennetrzpit.com/</a>,
+            un outil de mesure d’audience (Google Analytics) est utilisé ; sa
+            politique de confidentialité est disponible en français à l'adresse
+            internet suivante :
+            <a href="https://www.google.com/analytics/learn/privacy.html">
+              https://www.google.com/analytics/learn/privacy.html
+            </a>
+          </p>
+          <h3 className="about-title">e) Outils de paramétrage des cookies</h3>
           <p>
             La plupart des navigateurs Internet sont configurés par défaut de
             façon à ce que le dépôt de cookies soit autorisé. Votre navigateur
@@ -449,36 +467,54 @@ function Confidentiality() {
             sur votre navigation mais vous font perdre tout le bénéfice apporté
             par le cookie. Veuillez ci-dessous prendre connaissance des
             multiples outils mis à votre disposition afin que vous puissiez
-            paramétrer les cookies déposés sur votre terminal.{" "}
+            paramétrer les cookies déposés sur votre terminal.
           </p>
           <h3 className="about-title">
             f) Paramétrage de votre navigateur internet
-          </h3>{" "}
+          </h3>
           <p>
             Chaque navigateur Internet propose ses propres paramètres de gestion
             des cookies. Pour savoir de quelle manière modifier vos préférences
             en matière de cookies, vous trouverez ci-dessous les liens vers
             l’aide nécessaire pour accéder au menu de votre navigateur prévu à
             cet effet. Google Chrome :
-            https://support.google.com/chrome/answer/95647?hl=fr Internet
-            Explorer :
-            https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies#ie=ie-11
+            <a href="https://support.google.com/chrome/answer/95647?hl=fr">
+              https://support.google.com/chrome/answer/95647?hl=fr
+            </a>
+            Internet Explorer :
+            <a href="https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies#ie=ie-11">
+              https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies#ie=ie-11
+            </a>
             Mozilla Firefox :
-            https://support.mozilla.org/fr/kb/activer-desactiver-cookies Opera :
-            http://help.opera.com/Windows/10.20/fr/cookies.html Safari
-            https://support.apple.com/kb/PH21411?viewlocale=fr_FR&locale=fr_FR
+            <a href="https://support.mozilla.org/fr/kb/activer-desactiver-cookies">
+              https://support.mozilla.org/fr/kb/activer-desactiver-cookies
+            </a>
+            Opera :
+            <a href="http://help.opera.com/Windows/10.20/fr/cookies.html">
+              http://help.opera.com/Windows/10.20/fr/cookies.html
+            </a>
+            Safari
+            <a href="https://support.apple.com/kb/PH21411?viewlocale=fr_FR&locale=fr_FR">
+              https://support.apple.com/kb/PH21411?viewlocale=fr_FR&locale=fr_FR
+            </a>
             Pour de plus amples informations concernant les outils de maîtrise
             des cookies, vous pouvez consulter le site internet de la CNIL :
-            https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser. Pour
-            toute interrogation ou demande complémentaire d’informations
+            <a href="https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser">
+              https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser
+            </a>
+            . Pour toute interrogation ou demande complémentaire d’informations
             relative à la présente politique des cookies, merci de bien vouloir
-            nous contacter.{" "}
+            nous contacter.
           </p>
           <h3 className="about-title">g) Liste des cookies</h3>
           <p>
             La liste détaillée des cookies utilisés sur le Service
-            https://etiennetrzpit.com/ est disponible à l'adresse suivante :
-            https://etiennetrzpit.com/cookies.
+            <a href="https://etiennetrzpit.com/">https://etiennetrzpit.com/</a>
+            est disponible à l'adresse suivante :
+            <a href="https://etiennetrzpit.com/cookies">
+              https://etiennetrzpit.com/cookies
+            </a>
+            .
           </p>
         </section>
       </main>

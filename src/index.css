@@ -876,4 +876,17 @@ textarea::placeholder {
     right: 10vw;
     top: 10vh;
   }
+  .about-main {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-main aside,
+  .about-main section,
+  .about-main p {
+    width: 70vw;
+    text-align: center;
+  }
+  .about-main a {
+    word-wrap: break-word;
+  }
 }
