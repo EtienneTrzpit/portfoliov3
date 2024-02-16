@@ -163,8 +163,11 @@ textarea::placeholder {
 }
 
 .presentation-img {
-  width: 172px;
-  height: 243px;
+  width: 100px;
+  height: 200px;
+  background-color: var(--color5);
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .subtitle {
