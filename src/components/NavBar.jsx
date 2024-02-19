@@ -51,7 +51,11 @@ export default function NavBar() {
             Savoir-faire
           </a>
         </li>
-        <li className={activeItem === "item5" ? "active" : ""}>
+        <li
+          className={
+            activeItem === "item5" ? "active cta-button" : "cta-button"
+          }
+        >
           <a onClick={() => handleItemClick("item5")} href="#contact">
             Contact
           </a>

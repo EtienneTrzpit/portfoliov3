@@ -1,15 +1,12 @@
 import "../index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronCircleLeft } from "@fortawesome/free-solid-svg-icons";
-import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function ProjetsImg({ image }) {
-  const numero = image.numero;
-
+  const url = image.url;
   return (
     <div
-      style={{ backgroundImage: `url(${image.url})` }}
+      style={{ backgroundImage: `url(${url})` }}
       className="projet"
       key={image.title}
     >

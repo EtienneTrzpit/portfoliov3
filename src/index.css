@@ -33,6 +33,22 @@ a {
   text-decoration: none; /* Enlève le soulignement des liens */
 }
 
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cta-button {
+  animation: pulse 2s infinite;
+}
+
 .download {
   position: absolute;
   left: 4vw;
