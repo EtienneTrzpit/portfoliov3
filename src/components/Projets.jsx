@@ -9,51 +9,53 @@ import { useEffect } from "react";
 
 const images = [
   {
-    title: "Riding Cities",
-    subtitle: "Projet HTML avec ajout de plusieurs sections",
-    numero: "projet1 projet",
-    link: "https://github.com/EtienneTrzpit/site-Riding-Citites",
-  },
-  {
-    title: "Booki",
-    subtitle: "Projet HTML et CSS avec responsive design",
-    numero: "projet2 projet",
-    link: "https://github.com/EtienneTrzpit/booki-starter-code",
-  },
-  {
     title: "Ohmyfood",
-    subtitle: "Projet en cours de réalisation",
-    numero: "projet3 projet",
-  },
-  {
-    title: "Print it",
-    subtitle: "Projet en cours de réalisation",
-    numero: "projet4 projet",
-  },
-  {
-    title: "Sophie Bluel",
-    subtitle: "Projet en cours de réalisation",
-    numero: "projet5 projet",
+    skills: ["HTML", "CSS", "responsive", "animation"],
+    subtitle: "Site pour restaurant",
+    url: "src/assets/images/food.avif",
+    linkSite: "https://etiennetrzpit.github.io/ohmyfood/",
+    linkGithub: "https://github.com/EtienneTrzpit/ohmyfood",
   },
   {
     title: "Kasa",
-    subtitle: "Projet en cours de réalisation",
-    numero: "projet6 projet",
+    skills: ["React", "API"],
+    subtitle: "Site de location de logements",
+    url: "src/assets/images/kasa.avif",
+    linkSite: "https://etiennetrzpit.github.io/kasa/",
+    linkGithub: "https://github.com/EtienneTrzpit/kasa",
   },
   {
-    title: "SEO Nina",
-    subtitle: "Projet en cours de réalisation",
-    numero: "projet7 projet",
+    title: "Sophie Bluel",
+    skills: ["JavaScript", "API"],
+    subtitle: "Portfolio de photographe",
+    url: "src/assets/images/sophie.avif",
+    linkSite: "https://etiennetrzpit.github.io/Portfolio-SophieBluel-FrontEnd/",
+    linkGithub:
+      "https://github.com/EtienneTrzpit/Portfolio-SophieBluel-FrontEnd",
   },
   {
-    title: "724 Events",
-    subtitle: "Projet en cours de réalisation",
-    numero: "projet8 projet",
+    title: "Booki",
+    skills: ["HTML", "CSS", "responsive"],
+    subtitle: "Site de recherche de logements",
+    url: "src/assets/images/booki.avif",
+    linkSite: "https://etiennetrzpit.github.io/booki-starter-code/",
+    linkGithub: "https://github.com/EtienneTrzpit/booki-starter-code",
   },
   {
-    title: "Argent Bank",
-    subtitle: "Projet en cours de réalisation",
-    numero: "projet9 projet",
+    title: "Print-it",
+    skills: ["JavaScript"],
+    subtitle: "Création d'un carousel",
+    url: "src/assets/images/print.avif",
+    linkSite: "https://etiennetrzpit.github.io/Print-it-JS-1/",
+    linkGithub: "https://github.com/EtienneTrzpit/Print-it-JS-1",
+  },
+  {
+    title: "Nina Carducci",
+    skills: ["SEO", "Optimisation"],
+    subtitle: "Optimisation d'un site web",
+    url: "src/assets/images/nina.avif",
+    linkSite: "https://etiennetrzpit.github.io/ninacarducci/",
+    linkGithub: "https://github.com/EtienneTrzpit/ninacarducci",
   },
 ];
 
@@ -94,11 +96,11 @@ export default function Projets(props) {
   };
 
   const nextSlideDesktop = () => {
-    setCurrentDesktop(currentDesktop === 7 ? 1 : currentDesktop + 3);
+    setCurrentDesktop(currentDesktop === 4 ? 1 : currentDesktop + 3);
   };
 
   const prevSlideDesktop = () => {
-    setCurrentDesktop(currentDesktop === 1 ? 7 : currentDesktop - 3);
+    setCurrentDesktop(currentDesktop === 1 ? 4 : currentDesktop - 3);
   };
 
   if (windowType === "mobile") {

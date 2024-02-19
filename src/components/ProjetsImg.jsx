@@ -8,14 +8,27 @@ export default function ProjetsImg({ image }) {
   const numero = image.numero;
 
   return (
-    <div className={numero} key={image.numero}>
+    <div
+      style={{ backgroundImage: `url(${image.url})` }}
+      className="projet"
+      key={image.title}
+    >
       <div className="titles-projects">
-        <a href={image.link} target="_blank" aria-label="github">
+        <a href={image.linkGithub} target="_blank" aria-label="github">
           <FontAwesomeIcon icon={faGithub} size="2x" className="github" />
         </a>
-        <h3 className="cards-box-title">{image.title}</h3>
+        <a href={image.linkSite} target="_blank">
+          <h3 className="cards-box-title">{image.title}</h3>
+        </a>
       </div>
-      <p>{image.subtitle}</p>
+      <div className="project-skills">
+        {image.skills.map((skill, index) => (
+          <p key={index} className="project-skill">
+            {skill}
+          </p>
+        ))}
+      </div>
+      <p className="project-subtitle">{image.subtitle}</p>
     </div>
   );
 }
