@@ -1,13 +1,23 @@
 import "../index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 export default function Contact(props) {
+  const [isHovered, setIsHovered] = useState(false);
   return (
     <section
       ref={(ref) => (props.cardRefs.current[3] = ref)}
       className="cards contact"
       id="contact"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      style={{
+        animationName: "pulse",
+        animationDuration: "2s",
+        animationIterationCount: "infinite",
+        animationPlayState: isHovered ? "paused" : "running",
+      }}
     >
       <div className="cards-header">
         <FontAwesomeIcon icon={faEnvelope} size="2xl" />

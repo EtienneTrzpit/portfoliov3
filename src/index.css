@@ -127,6 +127,7 @@ textarea::placeholder {
 
 .contact {
   order: 4;
+  animation: pulse 2s infinite;
 }
 
 .navbar {
