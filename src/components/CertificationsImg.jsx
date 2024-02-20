@@ -1,17 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../index.css";
 import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
-import sass from "../assets/certifications/sass.pdf";
-import figma from "../assets/certifications/figma.pdf";
-import react from "../assets/certifications/react.pdf";
 
 export default function CertificationsImg({ image }) {
-  const numero = image.numero;
-
   return (
-    <div className={numero} key={image.numero}>
+    <div className="certification" key={image.title}>
       <div className="titles-projects">
-        <a href={image.pdf} download={image.pdf} aria-label="pdf">
+        <a href={image.pdf} target="_blank" aria-label="pdf">
           <FontAwesomeIcon
             icon={faFileArrowDown}
             size="2x"
