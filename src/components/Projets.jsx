@@ -12,7 +12,8 @@ const images = [
     title: "Ohmyfood",
     skills: ["HTML", "CSS", "responsive", "animation"],
     subtitle: "Site pour restaurant",
-    url: "src/assets/images/food.avif",
+    linkPicture:
+      "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424855/portfolio/v8fzvms7p4yungl3jl9r.avif",
     linkSite: "https://etiennetrzpit.github.io/ohmyfood/",
     linkGithub: "https://github.com/EtienneTrzpit/ohmyfood",
   },
@@ -20,7 +21,8 @@ const images = [
     title: "Kasa",
     skills: ["React", "API"],
     subtitle: "Site de location de logements",
-    url: "src/assets/images/kasa.avif",
+    linkPicture:
+      "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424855/portfolio/rpe2xndozwqfiq8n78yy.avif",
     linkSite: "https://etiennetrzpit.github.io/kasa/",
     linkGithub: "https://github.com/EtienneTrzpit/kasa",
   },
@@ -28,7 +30,8 @@ const images = [
     title: "Sophie Bluel",
     skills: ["JavaScript", "API"],
     subtitle: "Portfolio de photographe",
-    url: "src/assets/images/sophie.avif",
+    linkPicture:
+      "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424856/portfolio/eqqc1xogtatrppwkxsqu.avif",
     linkSite: "https://etiennetrzpit.github.io/Portfolio-SophieBluel-FrontEnd/",
     linkGithub:
       "https://github.com/EtienneTrzpit/Portfolio-SophieBluel-FrontEnd",
@@ -37,7 +40,8 @@ const images = [
     title: "Booki",
     skills: ["HTML", "CSS", "responsive"],
     subtitle: "Site de recherche de logements",
-    url: "src/assets/images/booki.avif",
+    linkPicture:
+      "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424855/portfolio/bxsws7n9goyaos0irqx3.avif",
     linkSite: "https://etiennetrzpit.github.io/booki-starter-code/",
     linkGithub: "https://github.com/EtienneTrzpit/booki-starter-code",
   },
@@ -45,7 +49,8 @@ const images = [
     title: "Print-it",
     skills: ["JavaScript"],
     subtitle: "Création d'un carousel",
-    url: "src/assets/images/print.avif",
+    linkPicture:
+      "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424855/portfolio/kvwsg2el4wlfqpq7j29t.avif",
     linkSite: "https://etiennetrzpit.github.io/Print-it-JS-1/",
     linkGithub: "https://github.com/EtienneTrzpit/Print-it-JS-1",
   },
@@ -53,7 +58,8 @@ const images = [
     title: "Nina Carducci",
     skills: ["SEO", "Optimisation"],
     subtitle: "Optimisation d'un site web",
-    url: "src/assets/images/nina.avif",
+    linkPicture:
+      "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424855/portfolio/gjzoa74gbng1gn3fvv1g.avif",
     linkSite: "https://etiennetrzpit.github.io/ninacarducci/",
     linkGithub: "https://github.com/EtienneTrzpit/ninacarducci",
   },

@@ -3,10 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function ProjetsImg({ image }) {
-  const url = image.url;
   return (
     <div
-      style={{ backgroundImage: `url(${url})` }}
+      style={{ backgroundImage: `url(${image.linkPicture})` }}
       className="projet"
       key={image.title}
     >
