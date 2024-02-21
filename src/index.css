@@ -261,6 +261,7 @@ textarea::placeholder {
 
 .box-knowledge {
   padding-left: 5vw;
+  margin-bottom: 8vh;
 }
 
 .titles-knowledge {
@@ -273,7 +274,7 @@ textarea::placeholder {
 }
 
 .knowledge-icons {
-  margin-right: 5vw;
+  margin-right: 2vw;
 }
 
 .img {
