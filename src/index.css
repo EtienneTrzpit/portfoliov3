@@ -723,6 +723,28 @@ textarea::placeholder {
   .box-knowledge {
     font-size: 2rem;
   }
+  .project-skill {
+    display: none;
+  }
+  .projects .cards-main {
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  .projects .left-arrow {
+    left: 8vw;
+    top: 28vh;
+  }
+  .projects .right-arrow {
+    right: 8vw;
+    top: 28vh;
+  }
+  .project-subtitle {
+    font-size: 2rem;
+    padding-top: 10vh;
+  }
+  .titles-projects {
+    font-size: 1.4rem;
+  }
 }
 
 /*Small devices (phones, less/equal than 768px)*/
@@ -837,9 +859,9 @@ textarea::placeholder {
   }
 
   .projet p {
-    font-size: 19px;
+    font-size: 2rem;
     line-height: 8vw;
-    padding-bottom: 50px;
+    margin-top: 7vh;
   }
 
   .certification-active {
@@ -902,6 +924,15 @@ textarea::placeholder {
     font-size: 1rem;
   }
   .box-knowledge {
+    font-size: 1rem;
+  }
+  .projects .left-arrow {
+    top: 25vh;
+  }
+  .projects .right-arrow {
+    top: 25vh;
+  }
+  .titles-projects {
     font-size: 1rem;
   }
 }
