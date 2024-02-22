@@ -666,8 +666,8 @@ textarea::placeholder {
   }
 
   .logo {
-    top: -11vh;
-    left: -8vw;
+    top: -12vh;
+    left: -5vw;
     position: fixed;
     z-index: 200;
     width: 60vw;
@@ -716,6 +716,12 @@ textarea::placeholder {
   .github {
     position: relative;
     margin-left: 4vw;
+  }
+  .cards-header {
+    font-size: 2rem;
+  }
+  .box-knowledge {
+    font-size: 2rem;
   }
 }
 
@@ -891,5 +897,11 @@ textarea::placeholder {
   }
   .name-certification {
     margin-left: -20vw;
+  }
+  .cards-header {
+    font-size: 1rem;
+  }
+  .box-knowledge {
+    font-size: 1rem;
   }
 }
