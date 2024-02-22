@@ -430,7 +430,7 @@ textarea::placeholder {
 }
 
 .certifications article {
-  width: 95vw;
+  width: 85vw;
   background-image: url("assets/images/certifications.avif");
   background-size: cover;
   background-position: 50% 40%;
@@ -666,8 +666,8 @@ textarea::placeholder {
   }
 
   .logo {
-    top: -12vh;
-    left: -4vw;
+    top: -11vh;
+    left: -8vw;
     position: fixed;
     z-index: 200;
     width: 60vw;
@@ -877,5 +877,19 @@ textarea::placeholder {
   }
   .about-main a {
     word-wrap: break-word;
+  }
+  .project-skills {
+    display: none;
+  }
+  .contact {
+    animation: none;
+  }
+  .download {
+    position: absolute;
+    left: 50vw;
+    top: 12vh;
+  }
+  .name-certification {
+    margin-left: -20vw;
   }
 }

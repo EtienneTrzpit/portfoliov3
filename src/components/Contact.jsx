@@ -2,9 +2,23 @@ import "../index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
+import { useEffect } from "react";
 
 export default function Contact(props) {
   const [isHovered, setIsHovered] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 767);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 767);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <section
       ref={(ref) => (props.cardRefs.current[3] = ref)}
@@ -12,12 +26,16 @@ export default function Contact(props) {
       id="contact"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      style={{
-        animationName: "pulse",
-        animationDuration: "2s",
-        animationIterationCount: "infinite",
-        animationPlayState: isHovered ? "paused" : "running",
-      }}
+      style={
+        isMobile
+          ? { animation: "none" }
+          : {
+              animationName: "pulse",
+              animationDuration: "2s",
+              animationIterationCount: "infinite",
+              animationPlayState: isHovered ? "paused" : "running",
+            }
+      }
     >
       <div className="cards-header">
         <FontAwesomeIcon icon={faEnvelope} size="2xl" />
