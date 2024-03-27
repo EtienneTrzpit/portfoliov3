@@ -34,16 +34,16 @@ export default function Header() {
               <a href="#">Présentation</a>
             </li>
             <li onClick={() => handleItemClick(false)}>
-              <a href="#">Savoir-faire</a>
+              <a href="#savoir-faire">Savoir-faire</a>
             </li>
             <li onClick={() => handleItemClick(false)}>
-              <a href="#">Projets</a>
+              <a href="#projets">Projets</a>
             </li>
             <li onClick={() => handleItemClick(false)}>
-              <a href="#">Certifications</a>
+              <a href="#certifications">Certifications</a>
             </li>
             <li className="cta-button" onClick={() => handleItemClick(false)}>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

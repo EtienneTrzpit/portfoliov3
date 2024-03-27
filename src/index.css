@@ -585,6 +585,12 @@ textarea::placeholder {
   .list-sections li {
     margin-bottom: 5vh;
   }
+  .mark-menu {
+    position: absolute;
+    right: 2vh;
+    top: 2vh;
+    cursor: pointer;
+  }
 }
 
 /**********  MEDIA QUERIES **********/
@@ -697,6 +703,7 @@ textarea::placeholder {
     position: absolute;
     right: 2vh;
     top: 2vh;
+    cursor: pointer;
   }
 
   .list-sections {
