@@ -793,6 +793,14 @@ textarea::placeholder {
     left: 8vw;
     top: 28vh;
   }
+  .certifications .left-arrow {
+    left: 8vw;
+    top: 28vh;
+  }
+  .certifications .right-arrow {
+    right: 8vw;
+    top: 28vh;
+  }
   .projects .right-arrow {
     right: 8vw;
     top: 28vh;
@@ -803,6 +811,11 @@ textarea::placeholder {
   }
   .titles-projects {
     font-size: 1.4rem;
+  }
+  .download {
+    position: absolute;
+    left: 20vw;
+    top: 18vh;
   }
 }
 
