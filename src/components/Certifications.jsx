@@ -56,6 +56,10 @@ export default function Certifications(props) {
         <FontAwesomeIcon icon={faGraduationCap} size="2xl" />
         <h2 className="cards-header-title">Certifications</h2>
       </div>
+      <p className="description-certification">
+        Cursus d'Intégrateur Web d'OpenClassrooms: maîtriser le développement
+        d'interfaces web en React
+      </p>
       <div className="cards-main">
         {images.map((image, index) => {
           return (
