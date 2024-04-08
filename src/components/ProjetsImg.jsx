@@ -1,8 +1,10 @@
 import "../index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { useState } from "react";
 
 export default function ProjetsImg({ image }) {
+  const [isHovered, setIsHovered] = useState(false);
   return (
     <div
       style={{ backgroundImage: `url(${image.linkPicture})` }}
@@ -24,7 +26,20 @@ export default function ProjetsImg({ image }) {
           </p>
         ))}
       </div>
-      <p className="project-subtitle">{image.subtitle}</p>
+      <p
+        className={`project-subtitle ${isHovered ? "hovered" : ""}`}
+        onMouseEnter={() => setIsHovered(true)}
+      >
+        {image.subtitle}
+      </p>
+      {isHovered && (
+        <p
+          className="project-description"
+          onMouseLeave={() => setIsHovered(false)}
+        >
+          {image.description}
+        </p>
+      )}
     </div>
   );
 }

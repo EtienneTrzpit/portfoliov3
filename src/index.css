@@ -49,6 +49,35 @@ a {
   animation: pulse 2s infinite;
 }
 
+.project-subtitle {
+  transition: transform 0.3s ease;
+}
+
+.project-subtitle.hovered {
+  transform: translateY(-15.2rem);
+  background-color: var(--color5);
+  color: var(--color6);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.project-description {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-subtitle.hovered + .project-description {
+  opacity: 1;
+}
+.project-description {
+  z-index: 800;
+  color: var(--color6);
+  background-color: var(--color5);
+  position: relative;
+  top: -26rem;
+  height: 14rem;
+}
+
 .download {
   position: absolute;
   left: 4vw;
