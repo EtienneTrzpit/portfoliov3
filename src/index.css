@@ -150,10 +150,6 @@ textarea::placeholder {
   order: 2;
 }
 
-.certifications .cards-header {
-  margin-top: 0px;
-}
-
 .knowledge {
   order: 3;
 }
@@ -252,7 +248,7 @@ textarea::placeholder {
   background-color: var(--color5);
   flex-direction: column;
   border-radius: 25px;
-  height: 45vh;
+  height: 47vh;
   width: 800px;
   position: relative;
 }
@@ -266,19 +262,10 @@ textarea::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2vh;
 }
 
 .cards-header-title {
-  margin-left: 5vw;
-}
-
-.cards-main {
-  display: flex;
-}
-
-.projects .cards-header {
-  margin-top: -20px;
+  margin-left: 2rem;
 }
 
 .cards-box {
@@ -373,12 +360,6 @@ textarea::placeholder {
   margin-top: 5vh;
 }
 
-.contact-main {
-  margin-top: -2vh;
-  margin-left: 10vw;
-  width: 22vw;
-}
-
 .contact-main label,
 .contact-main button {
   display: block;
@@ -437,11 +418,8 @@ textarea::placeholder {
 .contact-main {
   display: flex;
   flex-direction: column;
-}
-
-.contact .cards-header {
-  margin-bottom: -10vh;
-  margin-top: -5vh;
+  margin-left: 12rem;
+  margin-right: 12rem;
 }
 
 .consentement {
@@ -639,36 +617,6 @@ textarea::placeholder {
     margin-bottom: 0;
   }
 
-  .name-certification {
-    margin-top: -6vh;
-    margin-left: -15vw;
-  }
-
-  .contact-main {
-    margin-left: 25vw;
-    width: 40vw;
-  }
-
-  .content {
-    position: relative;
-    margin-top: 15vh;
-    margin-bottom: 3vh;
-    z-index: 0;
-    overflow: hidden;
-  }
-
-  .name {
-    font-size: 40px;
-    width: 20vw;
-  }
-
-  .title {
-    margin-top: 2vh;
-    width: 90vw;
-    text-align: center;
-    margin-left: 10vw;
-  }
-
   .content {
     flex-direction: column;
   }
@@ -699,21 +647,6 @@ textarea::placeholder {
 
   .presentation-img {
     display: none;
-  }
-
-  .subtitle {
-    margin-left: 8vw;
-    margin-top: 7vh;
-    text-align: center;
-  }
-
-  .title {
-    content: "Intégrateur Web en développement en React";
-  }
-
-  .presentation {
-    margin: 0px;
-    text-align: left;
   }
 
   .hamburger-menu {
@@ -785,70 +718,54 @@ textarea::placeholder {
     width: 95vw;
   }
 
-  .contact-main label {
-    margin-top: 2vh;
-    font-size: 20px;
-  }
-
-  .consentement {
-    margin-left: 2vw;
-  }
-
-  .certification .github {
-    position: absolute;
-    right: 10vw;
-    top: 13vh;
-  }
-
-  .certification .titles-projects {
-    margin-top: 10vh;
-    margin-left: 10vw;
-  }
-
-  .github {
-    position: relative;
-    margin-left: 4vw;
+  .project-skill {
+    display: none;
   }
   .cards-header {
     font-size: 2rem;
   }
-  .box-knowledge {
-    font-size: 2rem;
+  .cards-box {
+    font-size: 1.5rem;
   }
-  .project-skill {
-    display: none;
+  .left-arrow,
+  .right-arrow {
+    top: 20%;
+    color: black;
   }
-  .projects .cards-main {
-    margin-left: 3vw;
-    margin-right: 3vw;
+  .left-arrow {
+    left: 10%;
   }
-  .projects .left-arrow {
-    left: 8vw;
-    top: 28vh;
+  .right-arrow {
+    right: 10%;
   }
-  .certifications .left-arrow {
-    left: 8vw;
-    top: 28vh;
+  .box-active p {
+    font-size: 1.5rem;
+    margin-top: 30vh;
   }
-  .certifications .right-arrow {
-    right: 8vw;
-    top: 28vh;
-  }
-  .projects .right-arrow {
-    right: 8vw;
-    top: 28vh;
-  }
-  .project-subtitle {
-    font-size: 2rem;
-    padding-top: 10vh;
-  }
-  .titles-projects {
-    font-size: 1.4rem;
+  .certification-active {
+    height: 25vh;
   }
   .download {
-    position: absolute;
-    left: 20vw;
-    top: 18vh;
+    color: black;
+  }
+  .description-certification {
+    font-size: 1.5rem;
+  }
+  .contact-main label {
+    font-size: 1.5rem;
+  }
+  .contact-main textarea {
+    height: 25vh;
+  }
+  .contact-main input,
+  .contact-main textarea {
+    width: 70vw;
+  }
+  .contact-main {
+    margin-left: 10vw;
+  }
+  .presentation-txt {
+    margin-right: 0;
   }
 }
 
@@ -942,14 +859,6 @@ textarea::placeholder {
     margin-left: 0vw;
   }
 
-  .projects .cards-header {
-    margin-top: 0vh;
-  }
-
-  .certifications .cards-header {
-    margin-top: 2vh;
-  }
-
   .active {
     height: 35vh;
   }
@@ -1039,5 +948,8 @@ textarea::placeholder {
   }
   .titles-projects {
     font-size: 1rem;
+  }
+  .presentation-txt {
+    margin-right: 25vw;
   }
 }
