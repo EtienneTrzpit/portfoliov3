@@ -772,7 +772,9 @@ textarea::placeholder {
 /*Small devices (phones, less/equal than 768px)*/
 @media (max-width: 767px) {
   .certification p {
-    font-size: 19px;
+    font-size: 1rem;
+    position: relative;
+    top: 4rem;
   }
 
   .cards-box-title {
@@ -878,15 +880,10 @@ textarea::placeholder {
     margin-top: 7vh;
   }
 
-  .certification-active {
-    margin-bottom: 20px;
-  }
-
   .left-arrow {
     position: absolute;
     left: 10vw;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 80%;
     font-size: 50px;
     color: white;
     cursor: pointer;
@@ -895,11 +892,13 @@ textarea::placeholder {
   .right-arrow {
     position: absolute;
     right: 10vw;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 80%;
     font-size: 50px;
     color: white;
     cursor: pointer;
+  }
+  .name-certification {
+    display: none;
   }
 
   .github {
@@ -926,11 +925,6 @@ textarea::placeholder {
   .contact {
     animation: none;
   }
-  .download {
-    position: absolute;
-    left: 50vw;
-    top: 12vh;
-  }
   .name-certification {
     margin-left: -20vw;
   }
@@ -940,16 +934,20 @@ textarea::placeholder {
   .box-knowledge {
     font-size: 1rem;
   }
-  .projects .left-arrow {
-    top: 25vh;
-  }
-  .projects .right-arrow {
-    top: 25vh;
-  }
-  .titles-projects {
+  .projects .titles-projects {
     font-size: 1rem;
+  }
+  .certification {
+    display: flex;
+    flex-wrap: wrap;
   }
   .presentation-txt {
     margin-right: 25vw;
+  }
+  .download {
+    position: absolute;
+    left: 8vw;
+    top: 12rem;
+    color: white;
   }
 }
