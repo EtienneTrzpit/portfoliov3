@@ -767,6 +767,10 @@ textarea::placeholder {
   .presentation-txt {
     margin-right: 0;
   }
+  textarea.message {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 /*Small devices (phones, less/equal than 768px)*/

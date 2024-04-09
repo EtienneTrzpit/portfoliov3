@@ -28,14 +28,22 @@ export default function ProjetsImg({ image }) {
       </div>
       <p
         className={`project-subtitle ${isHovered ? "hovered" : ""}`}
-        onMouseEnter={() => setIsHovered(true)}
+        onMouseEnter={() => {
+          if (window.innerWidth > 1024) {
+            setIsHovered(true);
+          }
+        }}
       >
         {image.subtitle}
       </p>
       {isHovered && (
         <p
           className="project-description"
-          onMouseLeave={() => setIsHovered(false)}
+          onMouseLeave={() => {
+            if (window.innerWidth > 1024) {
+              setIsHovered(false);
+            }
+          }}
         >
           {image.description}
         </p>
