@@ -13,7 +13,7 @@ const images = [
     skills: ["HTML", "CSS", "responsive", "animation"],
     subtitle: "Site pour restaurant",
     description:
-      "C'est un site mobile first responsive avec animations et transitions CSS. Il permet la présentation de menus de restaurants. Il m'a permis de travailler sur le CSS et de découvrir les animations et transitions.",
+      "C'est un site mobile first responsive avec animations et transitions CSS. Il permet la présentation de menus de restaurants. Il m'a permis de travailler sur le CSS et de découvrir les animations et les transitions.",
     linkPicture:
       "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424855/portfolio/v8fzvms7p4yungl3jl9r.avif",
     linkSite: "https://etiennetrzpit.github.io/ohmyfood/",
@@ -69,7 +69,7 @@ const images = [
     skills: ["SEO", "Optimisation"],
     subtitle: "Optimisation d'un site web",
     description:
-      "C'est un site web pour une photographe dot j'ai optimisé les performances. J'ai  utilisé Lighthouse et Wave pour analyser le site et apporter des améliorations. J'ai également ajouté des balises meta et des attributs alt pour l'accessibilité.",
+      "C'est un site web pour une photographe dont j'ai optimisé les performances. J'ai  utilisé Lighthouse et Wave pour analyser le site et apporter des améliorations. J'ai également ajouté des balises meta et des attributs alt pour l'accessibilité.",
     linkPicture:
       "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424855/portfolio/gjzoa74gbng1gn3fvv1g.avif",
     linkSite: "https://etiennetrzpit.github.io/ninacarducci/",
