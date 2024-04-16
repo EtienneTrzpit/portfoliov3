@@ -44,3 +44,36 @@ a {
     transform: scale(1);
   }
 }
+
+/* Header */
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color5);
+  color: var(--color1);
+  width: 90%;
+  height: 10rem;
+  margin: 0 auto;
+  border-radius: 2.5rem;
+  border: var(--color6) solid 4px;
+  position: fixed;
+  left: 5%;
+  top: 2%;
+}
+.head__logo {
+  height: 20rem;
+  position: relative;
+  right: 6rem;
+}
+.head__hamburger {
+  position: absolute;
+  right: 2rem;
+}
+
+/* Navigation */
+.navig--hidden {
+  display: none;
+}
+
+/* Section Presentation */

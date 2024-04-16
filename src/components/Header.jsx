@@ -11,14 +11,16 @@ export default function Header() {
     setActiveMenu(answer);
   };
   return (
-    <header className="head">
-      <img src={logo} alt="logo" className="head__logo" />
-      <FontAwesomeIcon
-        icon={faBars}
-        size="4x"
-        className="head__hamburger"
-        onClick={() => handleItemClick(true)}
-      />
+    <>
+      <header className="head">
+        <img src={logo} alt="logo" className="head__logo" />
+        <FontAwesomeIcon
+          icon={faBars}
+          size="4x"
+          className="head__hamburger"
+          onClick={() => handleItemClick(true)}
+        />
+      </header>
       <nav className={activeMenu ? "navig" : "navig--hidden"}>
         <FontAwesomeIcon
           icon={faXmark}
@@ -44,6 +46,6 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-    </header>
+    </>
   );
 }
