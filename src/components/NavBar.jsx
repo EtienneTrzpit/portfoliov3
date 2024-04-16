@@ -29,7 +29,7 @@ export default function NavBar() {
   }, []);
 
   return (
-    <nav className="navbar">
+    <nav className="navig--large">
       <ul>
         <li className={activeItem === "item1" ? "active" : ""}>
           <a onClick={() => handleItemClick("item1")} href="#presentation">
@@ -53,7 +53,7 @@ export default function NavBar() {
         </li>
         <li
           className={
-            activeItem === "item5" ? "active cta-button" : "cta-button"
+            activeItem === "item5" ? "active navig__contact" : "navig__contact"
           }
         >
           <a onClick={() => handleItemClick("item5")} href="#contact">

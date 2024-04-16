@@ -11,42 +11,38 @@ export default function Header() {
     setActiveMenu(answer);
   };
   return (
-    <header className="menu-top">
-      <nav className="header-top">
-        <img src={logo} alt="logo" className="logo" />
+    <header className="head">
+      <img src={logo} alt="logo" className="head__logo" />
+      <FontAwesomeIcon
+        icon={faBars}
+        size="4x"
+        className="head__hamburger"
+        onClick={() => handleItemClick(true)}
+      />
+      <nav className={activeMenu ? "navig" : "navig--hidden"}>
         <FontAwesomeIcon
-          icon={faBars}
-          size="4x"
-          className="hamburger"
-          onClick={() => handleItemClick(true)}
+          icon={faXmark}
+          size="2xl"
+          className="navig__close"
+          onClick={() => handleItemClick(false)}
         />
-        <div
-          className={activeMenu ? "hamburger-menu" : "hamburger-menu-hidden"}
-        >
-          <FontAwesomeIcon
-            icon={faXmark}
-            size="2xl"
-            className="mark-menu"
-            onClick={() => handleItemClick(false)}
-          />
-          <ul className="list-sections">
-            <li onClick={() => handleItemClick(false)}>
-              <a href="#">Présentation</a>
-            </li>
-            <li onClick={() => handleItemClick(false)}>
-              <a href="#savoir-faire">Savoir-faire</a>
-            </li>
-            <li onClick={() => handleItemClick(false)}>
-              <a href="#projets">Projets</a>
-            </li>
-            <li onClick={() => handleItemClick(false)}>
-              <a href="#certifications">Certifications</a>
-            </li>
-            <li className="cta-button" onClick={() => handleItemClick(false)}>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+        <ul className="navig__list">
+          <li onClick={() => handleItemClick(false)}>
+            <a href="#">Présentation</a>
+          </li>
+          <li onClick={() => handleItemClick(false)}>
+            <a href="#savoir-faire">Savoir-faire</a>
+          </li>
+          <li onClick={() => handleItemClick(false)}>
+            <a href="#projets">Projets</a>
+          </li>
+          <li onClick={() => handleItemClick(false)}>
+            <a href="#certifications">Certifications</a>
+          </li>
+          <li className="navig__contact" onClick={() => handleItemClick(false)}>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
       </nav>
     </header>
   );

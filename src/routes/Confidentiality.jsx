@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import "../index.css";
 import HeaderAbout from "../components/HeaderAbout";
 import FooterAbout from "../components/FooterAbout";
@@ -7,12 +6,12 @@ function Confidentiality() {
   return (
     <>
       <HeaderAbout />
-      <main className="about-main">
-        <h1 className="about-title">
+      <main className="confidentiality">
+        <h1 className="confidentiality__title">
           POLITIQUE DE CONFIDENTIALITÉ ET D'UTILISATION DES DONNÉES PERSONNELLES
         </h1>
         <aside>
-          <h2 className="about-title">
+          <h2 className="confidentiality__title">
             Définition des termes utilisés dans la politique de confidentialité
           </h2>
           <ul>
@@ -43,7 +42,7 @@ function Confidentiality() {
           </ul>
         </aside>
         <section>
-          <h2 className="about-title">
+          <h2 className="confidentiality__title">
             Article 1 - Introduction et rôle de la Politique de confidentialité
           </h2>
           <p>
@@ -75,7 +74,7 @@ function Confidentiality() {
           </p>
         </section>
         <section>
-          <h2 className="about-title">
+          <h2 className="confidentiality__title">
             Article 2 - Données collectées sur le Site
           </h2>
           <p>
@@ -132,13 +131,13 @@ function Confidentiality() {
           </p>
         </section>
         <section>
-          <h2 className="about-title">
+          <h2 className="confidentiality__title">
             Article 3 - Identité du responsable du traitement
           </h2>
           <p>Le responsable du traitement est Monsieur Etienne Trzpit .</p>
         </section>
         <section>
-          <h2 className="about-title">
+          <h2 className="confidentiality__title">
             Article 4 - Finalité des Données collectées
           </h2>
           <p>
@@ -152,7 +151,7 @@ function Confidentiality() {
           </p>
         </section>
         <section>
-          <h2 className="about-title">
+          <h2 className="confidentiality__title">
             Article 5 - Destinataires et utilisation des Données collectées
           </h2>
           <p>
@@ -178,7 +177,7 @@ function Confidentiality() {
           </p>
         </section>
         <section>
-          <h2 className="about-title">
+          <h2 className="confidentiality__title">
             Article 6 - Fondements légaux régissant le traitement des données
           </h2>
           <p>
@@ -199,7 +198,9 @@ function Confidentiality() {
           </ul>
         </section>
         <section>
-          <h2 className="about-title">Article 7 - Sécurité des Données</h2>
+          <h2 className="confidentiality__title">
+            Article 7 - Sécurité des Données
+          </h2>
           <p>
             Vous êtes informés que vos Données pourront être divulguées en
             application d'une loi, d'un règlement ou en vertu d'une décision
@@ -216,7 +217,7 @@ function Confidentiality() {
           </p>
         </section>
         <section>
-          <h2 className="about-title">
+          <h2 className="confidentiality__title">
             Article 8 - Durée de conservation des Données
           </h2>
           <p>
@@ -230,7 +231,7 @@ function Confidentiality() {
           </p>
         </section>
         <section>
-          <h2 className="about-title">
+          <h2 className="confidentiality__title">
             Article 9 - Prestataires habilités et transfert vers un pays tiers
             de l’Union Européenne
           </h2>
@@ -253,7 +254,7 @@ function Confidentiality() {
           </p>
         </section>
         <section>
-          <h2 className="about-title">
+          <h2 className="confidentiality__title">
             Article 10 - Droits informatiques et libertés
           </h2>
           <p>
@@ -321,7 +322,7 @@ function Confidentiality() {
           </p>
         </section>
         <section>
-          <h2 className="about-title">
+          <h2 className="confidentiality__title">
             Article 11 - Plainte auprès de l’Autorité de protection des données
           </h2>
           <p>
@@ -337,7 +338,7 @@ function Confidentiality() {
           </p>
         </section>
         <section>
-          <h2 className="about-title">
+          <h2 className="confidentiality__title">
             Article 12 - Politique relative aux cookies
           </h2>
           <p>
@@ -352,7 +353,7 @@ function Confidentiality() {
             cookies présents sur notre Service, leur finalité et vous donne la
             marche à suivre pour les paramétrer.
           </p>
-          <h3 className="about-title">
+          <h3 className="confidentiality__title">
             a) Informations générales sur les cookies présents sur le site
           </h3>
           <p>
@@ -383,7 +384,7 @@ function Confidentiality() {
             </a>
             .
           </p>
-          <h3 className="about-title">
+          <h3 className="confidentiality__title">
             b) Configuration de vos préférences sur les cookies
           </h3>
           <p>
@@ -400,7 +401,7 @@ function Confidentiality() {
             au dépôt et à la lecture de cookies sur votre terminal peut être
             impératif.
           </p>
-          <h3 className="about-title">
+          <h3 className="confidentiality__title">
             c) Les cookies exemptés de consentement
           </h3>
           <p>
@@ -416,7 +417,7 @@ function Confidentiality() {
             politique dans la mesure où ils sont émis et gérés par Etienne
             Trzpit.
           </p>
-          <h3 className="about-title">
+          <h3 className="confidentiality__title">
             d) Les cookies nécessitant le recueil préalable de votre
             consentement
           </h3>
@@ -443,7 +444,9 @@ function Confidentiality() {
               https://www.google.com/analytics/learn/privacy.html
             </a>
           </p>
-          <h3 className="about-title">e) Outils de paramétrage des cookies</h3>
+          <h3 className="confidentiality__title">
+            e) Outils de paramétrage des cookies
+          </h3>
           <p>
             La plupart des navigateurs Internet sont configurés par défaut de
             façon à ce que le dépôt de cookies soit autorisé. Votre navigateur
@@ -469,7 +472,7 @@ function Confidentiality() {
             multiples outils mis à votre disposition afin que vous puissiez
             paramétrer les cookies déposés sur votre terminal.
           </p>
-          <h3 className="about-title">
+          <h3 className="confidentiality__title">
             f) Paramétrage de votre navigateur internet
           </h3>
           <p>
@@ -506,7 +509,7 @@ function Confidentiality() {
             relative à la présente politique des cookies, merci de bien vouloir
             nous contacter.
           </p>
-          <h3 className="about-title">g) Liste des cookies</h3>
+          <h3 className="confidentiality__title">g) Liste des cookies</h3>
           <p>
             La liste détaillée des cookies utilisés sur le Service
             <a href="https://etiennetrzpit.com/">https://etiennetrzpit.com/</a>

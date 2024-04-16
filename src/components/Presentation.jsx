@@ -3,11 +3,11 @@ import photo from "../assets/images/photo-personnelle.avif";
 export default function Presentation() {
   return (
     <article className="presentation">
-      <div className="presentation-txt">
-        <p className="subtitle">Etienne Trzpit</p>
-        <h1 className="title">Intégrateur Web en développement en React</h1>
+      <div className="presentation__description">
+        <p className="name">Etienne Trzpit</p>
+        <h1 className="job">Intégrateur Web en développement en React</h1>
       </div>
-      <img className="presentation-img" src={photo} alt="Photo personnelle" />
+      <img className="picture" src={photo} alt="Photo personnelle" />
     </article>
   );
 }

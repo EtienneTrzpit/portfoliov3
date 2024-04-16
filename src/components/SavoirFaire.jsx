@@ -12,86 +12,54 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 export default function SavoirFaire(props) {
   return (
-    <section
-      ref={(ref) => (props.cardRefs.current[1] = ref)}
-      className="cards knowledge"
-      id="savoir-faire"
-    >
-      <div className="cards-header">
+    <section className="knowledge" id="savoir-faire">
+      <div className="knowledge-head">
         <FontAwesomeIcon icon={faBrain} size="2xl" />
-        <h2 className="cards-header-title">Savoir-Faire</h2>
+        <h2 className="knowledge-head__title">Savoir-Faire</h2>
       </div>
-      <div className="cards-main">
-        <article className="cards-box box-knowledge">
-          <h3 className="cards-box-title titles-knowledge">Front-End</h3>
+      <div className="knowledge-main">
+        <article className="skill">
+          <h3 className="skill__title">Front-End</h3>
           <ul>
             <li>
-              <FontAwesomeIcon
-                icon={faHtml5}
-                size="xl"
-                className="knowledge-icons"
-              />
+              <FontAwesomeIcon icon={faHtml5} size="xl" className="icons" />
               HTML5 Sémantique
             </li>
             <li>
-              <FontAwesomeIcon
-                icon={faCss3Alt}
-                size="xl"
-                className="knowledge-icons"
-              />
+              <FontAwesomeIcon icon={faCss3Alt} size="xl" className="icons" />
               CSS3 Animation
             </li>
             <li>
-              <FontAwesomeIcon
-                icon={faSquareJs}
-                size="xl"
-                className="knowledge-icons"
-              />
+              <FontAwesomeIcon icon={faSquareJs} size="xl" className="icons" />
               Javascript
             </li>
             <li>
-              <FontAwesomeIcon
-                icon={faSass}
-                size="lg"
-                className="knowledge-icons"
-              />
+              <FontAwesomeIcon icon={faSass} size="lg" className="icons" />
               Sass
             </li>
           </ul>
         </article>
-        <article className="cards-box box-knowledge">
-          <h3 className="cards-box-title titles-knowledge">Déploiement</h3>
+        <article className="skill">
+          <h3 className="skill__title">Déploiement</h3>
           <ul>
             <li>
-              <FontAwesomeIcon
-                icon={faGitAlt}
-                size="xl"
-                className="knowledge-icons"
-              />
+              <FontAwesomeIcon icon={faGitAlt} size="xl" className="icons" />
               Git
             </li>
             <li>
-              <FontAwesomeIcon
-                icon={faGithub}
-                size="lg"
-                className="knowledge-icons"
-              />{" "}
+              <FontAwesomeIcon icon={faGithub} size="lg" className="icons" />
               GitHub
             </li>
             <li>
-              <FontAwesomeIcon
-                icon={faCode}
-                size="lg"
-                className="knowledge-icons"
-              />{" "}
+              <FontAwesomeIcon icon={faCode} size="lg" className="icons" />
               VS Code
             </li>
             <li>
               <FontAwesomeIcon
                 icon={faCloudUploadAlt}
                 size="lg"
-                className="knowledge-icons"
-              />{" "}
+                className="icons"
+              />
               Netlify
             </li>
           </ul>

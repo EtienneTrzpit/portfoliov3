@@ -47,27 +47,21 @@ export default function Certifications(props) {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
   return (
-    <section
-      ref={(ref) => (props.cardRefs.current[2] = ref)}
-      className="cards certifications"
-      id="certifications"
-    >
-      <div className="cards-header">
+    <section className="certifications" id="certifications">
+      <div className="certifications-head">
         <FontAwesomeIcon icon={faGraduationCap} size="2xl" />
-        <h2 className="cards-header-title">Certifications</h2>
+        <h2 className="certifications-head__title">Certifications</h2>
       </div>
-      <p className="description-certification">
+      <p className="certifications__description">
         Cursus d'Intégrateur Web d'OpenClassrooms: maîtriser le développement
         d'interfaces web en React
       </p>
-      <div className="cards-main">
+      <div className="certifications-main">
         {images.map((image, index) => {
           return (
             <article
               className={
-                index === current
-                  ? "certification-active"
-                  : "cards-box box-projects box-hidden"
+                index === current ? "certification" : "certification--hidden"
               }
               key={index}
             >

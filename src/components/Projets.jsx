@@ -123,24 +123,16 @@ export default function Projets(props) {
 
   if (windowType === "mobile") {
     return (
-      <section
-        ref={(ref) => (props.cardRefs.current[0] = ref)}
-        className="cards projects"
-        id="projets"
-      >
-        <div className="cards-header">
+      <section className="projects" id="projets">
+        <div className="projects-head">
           <FontAwesomeIcon icon={faCodeFork} size="2xl" />
-          <h2 className="cards-header-title">Projets</h2>
+          <h2 className="projects-head__title">Projets</h2>
         </div>
-        <div className="cards-main">
+        <div className="projects-main">
           {images.map((image, index) => {
             return (
               <article
-                className={
-                  index === current
-                    ? "cards-box box-projects box-active"
-                    : "cards-box box-projects box-hidden"
-                }
+                className={index === current ? "project" : "project--hidden"}
                 key={index}
               >
                 {index === current && <ProjetsImg image={image} />}
@@ -162,16 +154,12 @@ export default function Projets(props) {
     );
   } else if (windowType === "desktop" || windowType === "tablet") {
     return (
-      <section
-        ref={(ref) => (props.cardRefs.current[0] = ref)}
-        className="cards projects"
-        id="projets"
-      >
-        <div className="cards-header">
+      <section className="projects" id="projets">
+        <div className="projects-head">
           <FontAwesomeIcon icon={faCodeFork} size="2xl" />
-          <h2 className="cards-header-title">Projets</h2>
+          <h2 className="projects-head__title">Projets</h2>
         </div>
-        <div className="cards-main">
+        <div className="projects-main">
           {images.map((image, index) => {
             return (
               <article
@@ -179,8 +167,8 @@ export default function Projets(props) {
                   index === currentDesktop ||
                   index === currentDesktop - 1 ||
                   index === currentDesktop + 1
-                    ? "box-active"
-                    : "box-hidden"
+                    ? "project"
+                    : "project--hidden"
                 }
                 key={index}
               >

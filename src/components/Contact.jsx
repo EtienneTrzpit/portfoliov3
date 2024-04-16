@@ -21,8 +21,7 @@ export default function Contact(props) {
   }, []);
   return (
     <section
-      ref={(ref) => (props.cardRefs.current[3] = ref)}
-      className="cards contact"
+      className="contact"
       id="contact"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -37,18 +36,18 @@ export default function Contact(props) {
             }
       }
     >
-      <div className="cards-header">
+      <div className="contact-head">
         <FontAwesomeIcon icon={faEnvelope} size="2xl" />
-        <h2 className="cards-header-title">Contact</h2>
+        <h2 className="contact-head__title">Contact</h2>
       </div>
-      <div className="cards-main contact-main">
+      <div className="contact-main">
         <form name="contact" method="post">
           <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>
-              Ton nom:{" "}
+              Ton nom:
               <input
-                className="message"
+                className="contact__name"
                 type="text"
                 name="name"
                 required
@@ -58,9 +57,9 @@ export default function Contact(props) {
           </p>
           <p>
             <label>
-              Ton Email:{" "}
+              Ton Email:
               <input
-                className="message"
+                className="contact__email"
                 type="email"
                 name="email"
                 required
@@ -72,7 +71,7 @@ export default function Contact(props) {
             <label>
               Message:{" "}
               <textarea
-                className="message"
+                className="contact__message"
                 name="message"
                 required
                 autoComplete="on"
@@ -81,7 +80,7 @@ export default function Contact(props) {
           </p>
           <div>
             {/* formulaire de consentement RGPD */}
-            <div className="consentement">
+            <div className="contact__consentement">
               <input
                 type="checkbox"
                 id="consentement"
