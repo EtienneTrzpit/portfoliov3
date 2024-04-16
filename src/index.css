@@ -60,6 +60,7 @@ a {
   position: fixed;
   left: 5%;
   top: 2%;
+  z-index: 100;
 }
 .head__logo {
   height: 20rem;
@@ -75,5 +76,35 @@ a {
 .navig--hidden {
   display: none;
 }
+ul {
+  display: none;
+}
 
 /* Section Presentation */
+.presentation {
+  margin-top: 15rem;
+  display: flex;
+  font-family: Oswald, sans-serif;
+}
+.presentation__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.name {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+.job {
+  margin-top: 5rem;
+  font-size: 2.3rem;
+  text-align: center;
+  width: 62%;
+  font-weight: normal;
+}
+.picture {
+  display: none;
+}
