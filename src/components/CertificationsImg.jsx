@@ -5,14 +5,7 @@ import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 export default function CertificationsImg({ image }) {
   return (
     <div className="certification" key={image.title}>
-      <div className="titles-projects">
-        <a href={image.pdf} target="_blank" aria-label="pdf">
-          <FontAwesomeIcon
-            icon={faFileArrowDown}
-            size="2x"
-            className="download"
-          />
-        </a>
+      <div className="certification-description">
         <h3>
           <FontAwesomeIcon
             icon={image.title}
@@ -20,8 +13,15 @@ export default function CertificationsImg({ image }) {
             className="name-certification"
           />
         </h3>
+        <p>{image.subtitle}</p>
       </div>
-      <p>{image.subtitle}</p>
+      <a href={image.pdf} target="_blank" aria-label="pdf">
+        <FontAwesomeIcon
+          icon={faFileArrowDown}
+          size="2x"
+          className="download"
+        />
+      </a>
     </div>
   );
 }

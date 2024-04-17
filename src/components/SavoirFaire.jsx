@@ -23,19 +23,19 @@ export default function SavoirFaire(props) {
           <ul>
             <li>
               <FontAwesomeIcon icon={faHtml5} size="xl" className="icons" />
-              HTML5 Sémantique
+              <p>HTML5</p>
             </li>
             <li>
               <FontAwesomeIcon icon={faCss3Alt} size="xl" className="icons" />
-              CSS3 Animation
+              <p>CSS3</p>
             </li>
             <li>
               <FontAwesomeIcon icon={faSquareJs} size="xl" className="icons" />
-              Javascript
+              <p>Javascript</p>
             </li>
             <li>
               <FontAwesomeIcon icon={faSass} size="lg" className="icons" />
-              Sass
+              <p>Sass</p>
             </li>
           </ul>
         </article>
@@ -44,15 +44,15 @@ export default function SavoirFaire(props) {
           <ul>
             <li>
               <FontAwesomeIcon icon={faGitAlt} size="xl" className="icons" />
-              Git
+              <p>Git</p>
             </li>
             <li>
               <FontAwesomeIcon icon={faGithub} size="lg" className="icons" />
-              GitHub
+              <p>GitHub</p>
             </li>
             <li>
               <FontAwesomeIcon icon={faCode} size="lg" className="icons" />
-              VS Code
+              <p>VS Code</p>
             </li>
             <li>
               <FontAwesomeIcon
@@ -60,7 +60,7 @@ export default function SavoirFaire(props) {
                 size="lg"
                 className="icons"
               />
-              Netlify
+              <p>Netlify</p>
             </li>
           </ul>
         </article>

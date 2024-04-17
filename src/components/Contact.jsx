@@ -69,7 +69,7 @@ export default function Contact(props) {
           </p>
           <p>
             <label>
-              Message:{" "}
+              Message:
               <textarea
                 className="contact__message"
                 name="message"
@@ -93,7 +93,9 @@ export default function Contact(props) {
                 envoyées afin de pouvoir répondre à ma demande.
               </label>
             </div>
-            <button type="submit">Envoyer</button>
+            <button type="submit" className="button">
+              Envoyer
+            </button>
           </div>
         </form>
       </div>

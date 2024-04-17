@@ -69,16 +69,18 @@ export default function Certifications(props) {
             </article>
           );
         })}
-        <FontAwesomeIcon
-          icon={faChevronCircleLeft}
-          className="left-arrow"
-          onClick={prevSlide}
-        />
-        <FontAwesomeIcon
-          icon={faChevronCircleRight}
-          className="right-arrow"
-          onClick={nextSlide}
-        />
+        <div className="arrows">
+          <FontAwesomeIcon
+            icon={faChevronCircleLeft}
+            className="left-arrow"
+            onClick={prevSlide}
+          />
+          <FontAwesomeIcon
+            icon={faChevronCircleRight}
+            className="right-arrow"
+            onClick={nextSlide}
+          />
+        </div>
       </div>
     </section>
   );

@@ -139,6 +139,8 @@ export default function Projets(props) {
               </article>
             );
           })}
+        </div>
+        <div className="arrows">
           <FontAwesomeIcon
             icon={faChevronCircleLeft}
             className="left-arrow"
@@ -178,6 +180,8 @@ export default function Projets(props) {
               </article>
             );
           })}
+        </div>
+        <div className="arrows">
           <FontAwesomeIcon
             icon={faChevronCircleLeft}
             className="left-arrow"
