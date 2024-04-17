@@ -33,7 +33,12 @@ export default function ProjetsImg({ image }) {
       </p>
       {showDescription && (
         <div className="project-description">
-          <button onClick={() => setShowDescription(false)}>X</button>
+          <button
+            className="project-close"
+            onClick={() => setShowDescription(false)}
+          >
+            X
+          </button>
           <p>{image.description}</p>
         </div>
       )}

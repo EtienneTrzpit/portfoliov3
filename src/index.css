@@ -104,7 +104,7 @@ a {
 .navig__list li {
   padding: 2rem;
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .navig__close {
   position: absolute;
@@ -284,6 +284,13 @@ a {
 
 .project-subtitle:hover {
   transform: translate(0, -1rem);
+}
+.project-close {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--color1);
+  color: var(--color5);
+  border-radius: 50%;
 }
 
 /* Section Certifications */
