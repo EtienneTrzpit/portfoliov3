@@ -12,7 +12,7 @@ export default function Header() {
   };
   return (
     <>
-      <header className="head">
+      <header className={activeMenu ? "hidden" : "head"}>
         <img src={logo} alt="logo" className="head__logo" />
         <FontAwesomeIcon
           icon={faBars}
