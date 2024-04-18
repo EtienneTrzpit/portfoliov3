@@ -12,9 +12,14 @@ export default function ProjetsImg({ image }) {
       className="project-img"
       key={image.title}
     >
-      <a className="project-title" href={image.linkSite} target="_blank">
-        <h3 className="project-title">{image.title}</h3>
-      </a>
+      <div className="project-head">
+        <a href={image.linkGithub} target="_blank" aria-label="github">
+          <FontAwesomeIcon icon={faGithub} size="2x" className="github" />
+        </a>
+        <a className="project-title" href={image.linkSite} target="_blank">
+          <h3 className="project-title">{image.title}</h3>
+        </a>
+      </div>
       <div className="project-skills">
         {image.skills.map((skill, index) => (
           <p key={index} className="project-skill">
@@ -22,9 +27,6 @@ export default function ProjetsImg({ image }) {
           </p>
         ))}
       </div>
-      <a href={image.linkGithub} target="_blank" aria-label="github">
-        <FontAwesomeIcon icon={faGithub} size="2x" className="github" />
-      </a>
       <p
         className="project-subtitle"
         onClick={() => setShowDescription(!showDescription)}

@@ -53,7 +53,7 @@ export default function Certifications(props) {
         <h2 className="certifications-head__title">Certifications</h2>
       </div>
       <p className="certifications__description">
-        Cursus d'Intégrateur Web d'OpenClassrooms: maîtriser le développement
+        Cursus d'Intégrateur Web d'OpenClassrooms : maîtriser le développement
         d'interfaces web en React
       </p>
       <div className="certifications-main">

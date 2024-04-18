@@ -15,7 +15,7 @@ export default function SavoirFaire(props) {
     <section className="knowledge" id="savoir-faire">
       <div className="knowledge-head">
         <FontAwesomeIcon icon={faBrain} size="2xl" />
-        <h2 className="knowledge-head__title">Savoir-Faire</h2>
+        <h2 className="knowledge-head__title">Compétences</h2>
       </div>
       <div className="knowledge-main">
         <article className="skill">
