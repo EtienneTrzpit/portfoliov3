@@ -112,6 +112,11 @@ a {
   right: 2rem;
 }
 
+.active {
+  background-color: var(--color5);
+  color: var(--color1);
+}
+
 /* Section Presentation */
 .presentation {
   color: var(--color5);
@@ -402,6 +407,9 @@ textarea {
   margin-left: auto;
   width: 100%;
   height: 2rem;
+  resize: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
 }
 textarea {
   height: 10rem;
@@ -468,6 +476,17 @@ textarea {
 
 .confidentiality {
   margin-top: 15rem;
+  text-align: center;
+  line-height: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.confidentiality__title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* Page des cookies */
@@ -476,11 +495,25 @@ textarea {
   text-align: center;
 }
 
+.cookies__title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 /* Page des mentions légales */
 
 .legal {
   margin-top: 15rem;
   text-align: center;
+}
+
+.legal__title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -531,10 +564,6 @@ textarea {
     text-align: center;
     margin: 0;
     font-weight: bold;
-  }
-  .active {
-    background-color: var(--color5);
-    color: var(--color1);
   }
 
   /* Section Presentation */
