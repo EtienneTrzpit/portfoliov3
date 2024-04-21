@@ -22,7 +22,6 @@ export default function Contact(props) {
   return (
     <section
       className="contact"
-      id="contact"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       style={
@@ -30,7 +29,7 @@ export default function Contact(props) {
           ? { animation: "none" }
           : {
               animationName: "pulse",
-              animationDuration: "2s",
+              animationDuration: "3s",
               animationIterationCount: "infinite",
               animationPlayState: isHovered ? "paused" : "running",
             }

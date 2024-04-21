@@ -12,7 +12,7 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 export default function SavoirFaire(props) {
   return (
-    <section className="knowledge" id="savoir-faire">
+    <section className="knowledge">
       <div className="knowledge-head">
         <FontAwesomeIcon icon={faBrain} size="2xl" />
         <h2 className="knowledge-head__title">Compétences</h2>
@@ -60,7 +60,7 @@ export default function SavoirFaire(props) {
                 size="lg"
                 className="icons"
               />
-              <p>Netlify</p>
+              <p id="projets">Netlify</p>
             </li>
           </ul>
         </article>

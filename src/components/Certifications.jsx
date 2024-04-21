@@ -47,7 +47,7 @@ export default function Certifications(props) {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
   return (
-    <section className="certifications" id="certifications">
+    <section className="certifications">
       <div className="certifications-head">
         <FontAwesomeIcon icon={faGraduationCap} size="2xl" />
         <h2 className="certifications-head__title">Certifications</h2>
@@ -79,6 +79,7 @@ export default function Certifications(props) {
             icon={faChevronCircleRight}
             className="right-arrow"
             onClick={nextSlide}
+            id="contact"
           />
         </div>
       </div>

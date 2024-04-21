@@ -33,7 +33,7 @@ export default function Header() {
             <a href="#">Présentation</a>
           </li>
           <li onClick={() => handleItemClick(false)}>
-            <a href="#savoir-faire">Savoir-faire</a>
+            <a href="#savoir-faire">Compétences</a>
           </li>
           <li onClick={() => handleItemClick(false)}>
             <a href="#projets">Projets</a>

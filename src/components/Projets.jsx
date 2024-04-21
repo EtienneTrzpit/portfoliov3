@@ -56,7 +56,7 @@ const images = [
   {
     title: "Print-it",
     skills: ["JavaScript"],
-    subtitle: "Création d'un carousel",
+    subtitle: "Création d'un carrousel",
     description:
       "C'est un site web avec un carousel de photos. J'ai utilisé JavaScript pour ajouter des fonctionnalités comme le défilement des photos et les flèches de navigation. J'ai également utilisé des événements pour les interactions avec l'utilisateur.",
     linkPicture:
@@ -123,7 +123,7 @@ export default function Projets(props) {
 
   if (windowType === "mobile") {
     return (
-      <section className="projects" id="projets">
+      <section className="projects">
         <div className="projects-head">
           <FontAwesomeIcon icon={faCodeFork} size="2xl" />
           <h2 className="projects-head__title">Projets</h2>
@@ -150,13 +150,14 @@ export default function Projets(props) {
             icon={faChevronCircleRight}
             className="right-arrow"
             onClick={nextSlide}
+            id="certifications"
           />
         </div>
       </section>
     );
   } else if (windowType === "desktop" || windowType === "tablet") {
     return (
-      <section className="projects" id="projets">
+      <section className="projects">
         <div className="projects-head">
           <FontAwesomeIcon icon={faCodeFork} size="2xl" />
           <h2 className="projects-head__title">Projets</h2>
@@ -191,6 +192,7 @@ export default function Projets(props) {
             icon={faChevronCircleRight}
             className="right-arrow"
             onClick={nextSlideDesktop}
+            id="certifications"
           />
         </div>
       </section>
