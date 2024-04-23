@@ -1,40 +1,10 @@
 import "../index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
-import { useEffect } from "react";
 
 export default function Contact(props) {
-  const [isHovered, setIsHovered] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1024);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
   return (
-    <section
-      className="contact"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-      style={
-        isMobile
-          ? { animation: "none" }
-          : {
-              animationName: "pulse",
-              animationDuration: "3s",
-              animationIterationCount: "infinite",
-              animationPlayState: isHovered ? "paused" : "running",
-            }
-      }
-    >
+    <section className="contact">
       <div className="contact-head">
         <FontAwesomeIcon icon={faEnvelope} size="2xl" />
         <h2 className="contact-head__title">Contact</h2>
