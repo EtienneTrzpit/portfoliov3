@@ -35,7 +35,7 @@ export default function NavBar() {
       <ul>
         <li className="item1">
           <a href="#">Présentation</a>
-          <span className="select-hidden"></span>
+          <span className="select-hidden arrow-up"></span>
         </li>
         <li className="item2">
           <a href="#savoir-faire">Compétences</a>

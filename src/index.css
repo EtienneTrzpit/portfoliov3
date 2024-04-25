@@ -383,7 +383,13 @@ a {
   width: 90%;
   margin: 0 auto;
   font-weight: bold;
+  cursor: pointer;
 }
+
+.certifications__description:hover {
+  text-decoration: underline;
+}
+
 .certification-description {
   font-size: 1.5rem;
   text-align: center;

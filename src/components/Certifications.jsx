@@ -52,10 +52,15 @@ export default function Certifications(props) {
         <FontAwesomeIcon icon={faGraduationCap} size="2xl" />
         <h2 className="certifications-head__title">Certifications</h2>
       </div>
-      <p className="certifications__description">
-        Cursus d'Intégrateur Web d'OpenClassrooms : maîtriser le développement
-        d'interfaces web en React
-      </p>
+      <a
+        href="https://res.cloudinary.com/dbf29pedz/image/upload/v1714069615/portfolio/qh2sjwpp67ijuhrx84mt.pdf"
+        target="_blank"
+      >
+        <p className="certifications__description">
+          Cursus d'Intégrateur Web d'OpenClassrooms : maîtriser le développement
+          d'interfaces web en React
+        </p>
+      </a>
       <div className="certifications-main">
         {images.map((image, index) => {
           return (
