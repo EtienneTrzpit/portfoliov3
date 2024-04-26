@@ -9,6 +9,9 @@ import { faGitAlt } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faCloudUploadAlt } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faServer } from "@fortawesome/free-solid-svg-icons";
+import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faReact } from "@fortawesome/free-brands-svg-icons";
 
 export default function SavoirFaire(props) {
   return (
@@ -19,7 +22,6 @@ export default function SavoirFaire(props) {
       </div>
       <div className="knowledge-main">
         <article className="skill">
-          <h3 className="skill__title">Front-End</h3>
           <ul>
             <li>
               <FontAwesomeIcon icon={faHtml5} size="xl" className="icons" />
@@ -34,25 +36,24 @@ export default function SavoirFaire(props) {
               <p>Javascript</p>
             </li>
             <li>
-              <FontAwesomeIcon icon={faSass} size="lg" className="icons" />
-              <p>Sass</p>
+              <FontAwesomeIcon icon={faSquareJs} size="xl" className="icons" />
+              <p>Jest</p>
             </li>
           </ul>
         </article>
         <article className="skill">
-          <h3 className="skill__title">Déploiement</h3>
           <ul>
             <li>
-              <FontAwesomeIcon icon={faGitAlt} size="xl" className="icons" />
-              <p>Git</p>
+              <FontAwesomeIcon icon={faCode} size="lg" className="icons" />
+              <p>VS Code</p>
             </li>
             <li>
               <FontAwesomeIcon icon={faGithub} size="lg" className="icons" />
               <p>GitHub</p>
             </li>
             <li>
-              <FontAwesomeIcon icon={faCode} size="lg" className="icons" />
-              <p>VS Code</p>
+              <FontAwesomeIcon icon={faGitAlt} size="xl" className="icons" />
+              <p>Git</p>
             </li>
             <li>
               <FontAwesomeIcon
@@ -61,6 +62,26 @@ export default function SavoirFaire(props) {
                 className="icons"
               />
               <p id="projets">Netlify</p>
+            </li>
+          </ul>
+        </article>
+        <article className="skill">
+          <ul>
+            <li>
+              <FontAwesomeIcon icon={faSass} size="lg" className="icons" />
+              <p>Sass</p>
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faServer} size="lg" className="icons" />
+              <p>Swagger</p>
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faGoogle} size="lg" className="icons" />
+              <p>Lighthouse</p>
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faReact} size="lg" className="icons" />
+              <p id="projets">Redux</p>
             </li>
           </ul>
         </article>
