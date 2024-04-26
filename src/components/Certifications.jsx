@@ -16,22 +16,22 @@ const images = [
   {
     title: faSass,
     subtitle: "Simplifiez-vous le CSS avec Sass",
-    pdf: "https://res.cloudinary.com/dbf29pedz/image/upload/v1708445589/portfolio/llmollq7b4nqyfi0dcus.pdf",
+    pdf: "https://res.cloudinary.com/dbf29pedz/image/upload/f_auto,q_auto/v1/portfolio/certificat-sass",
   },
   {
     title: faReact,
     subtitle: "Débutez avec React",
-    pdf: "https://res.cloudinary.com/dbf29pedz/image/upload/v1708445589/portfolio/ctwed3m1c00p9qslmhxn.pdf",
+    pdf: "https://res.cloudinary.com/dbf29pedz/image/upload/f_auto,q_auto/v1/portfolio/certificat-debutReact",
   },
   {
     title: faFigma,
     subtitle: "Créez une maquette web avec Figma",
-    pdf: "https://res.cloudinary.com/dbf29pedz/image/upload/v1708445589/portfolio/hu2lv4vimm4zlho0eflj.pdf",
+    pdf: "https://res.cloudinary.com/dbf29pedz/image/upload/f_auto,q_auto/v1/portfolio/certificat-maquetteFigma",
   },
   {
     title: faCss3Alt,
     subtitle: "Créez des animations CSS modernes",
-    pdf: "https://res.cloudinary.com/dbf29pedz/image/upload/v1708448613/portfolio/ocpne7bivjdklvtjp8op.pdf",
+    pdf: "https://res.cloudinary.com/dbf29pedz/image/upload/f_auto,q_auto/v1/portfolio/certificat-animationCSS",
   },
 ];
 
@@ -53,7 +53,7 @@ export default function Certifications(props) {
         <h2 className="certifications-head__title">Certifications</h2>
       </div>
       <a
-        href="https://res.cloudinary.com/dbf29pedz/image/upload/v1714069615/portfolio/qh2sjwpp67ijuhrx84mt.pdf"
+        href="https://res.cloudinary.com/dbf29pedz/image/upload/f_auto,q_auto/v1/portfolio/diplome"
         target="_blank"
       >
         <p className="certifications__description">

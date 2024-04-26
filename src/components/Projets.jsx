@@ -11,33 +11,33 @@ const images = [
   {
     title: "Kasa",
     skills: ["React", "Sass", "Transition"],
-    subtitle: "Site de location de logements",
+    subtitle: "Annonces immobilières de location",
     description:
       "C'est une implémentation du front-end d'une application web de location immobilière. J'ai utilisé React Router pour gérer les routes et les paramètres d'URL. J'ai également utilisé un fichier JSON pour récupérer les données des logements.",
     linkPicture:
-      "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424855/portfolio/rpe2xndozwqfiq8n78yy.avif",
+      "https://res.cloudinary.com/dbf29pedz/image/upload/f_auto,q_auto/v1/portfolio/projet-Kasa",
     linkSite: "https://etiennetrzpit.github.io/kasa/",
     linkGithub: "https://github.com/EtienneTrzpit/kasa",
   },
   {
     title: "Ohmyfood",
     skills: ["Sass", "Animation"],
-    subtitle: "Site pour restaurant",
+    subtitle: "Réservez le menu qui vous convient",
     description:
       "C'est un site mobile first responsive avec animations et transitions CSS. Il permet la présentation de menus de restaurants. Il m'a permis de travailler sur le CSS et de découvrir les animations et les transitions.",
     linkPicture:
-      "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424855/portfolio/v8fzvms7p4yungl3jl9r.avif",
+      "https://res.cloudinary.com/dbf29pedz/image/upload/f_auto,q_auto/v1/portfolio/projet-Ohmyfood",
     linkSite: "https://etiennetrzpit.github.io/ohmyfood/",
     linkGithub: "https://github.com/EtienneTrzpit/ohmyfood",
   },
   {
     title: "Booki",
     skills: ["HTML", "CSS", "Responsive"],
-    subtitle: "Site de recherche de logements",
+    subtitle: "Réservations pour les vacances",
     description:
       "C'est un site web pour la recherche de logements. J'ai utilisé Flexbox pour le design et j'ai rendu le site responsive. J'ai également utilisé des balises sémantiques pour l'accessibilité.",
     linkPicture:
-      "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424855/portfolio/bxsws7n9goyaos0irqx3.avif",
+      "https://res.cloudinary.com/dbf29pedz/image/upload/f_auto,q_auto/v1/portfolio/projet-Booki",
     linkSite: "https://etiennetrzpit.github.io/booki-starter-code/",
     linkGithub: "https://github.com/EtienneTrzpit/booki-starter-code",
   },
@@ -48,18 +48,18 @@ const images = [
     description:
       "C'est un site web avec un carousel de photos. J'ai utilisé JavaScript pour ajouter des fonctionnalités comme le défilement des photos et les flèches de navigation. J'ai également utilisé des événements pour les interactions avec l'utilisateur.",
     linkPicture:
-      "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424855/portfolio/kvwsg2el4wlfqpq7j29t.avif",
+      "https://res.cloudinary.com/dbf29pedz/image/upload/f_auto,q_auto/v1/portfolio/projet-Print-it",
     linkSite: "https://etiennetrzpit.github.io/Print-it-JS-1/",
     linkGithub: "https://github.com/EtienneTrzpit/Print-it-JS-1",
   },
   {
     title: "Nina Carducci",
     skills: ["SEO", "Optimisation"],
-    subtitle: "Optimisation d'un site web",
+    subtitle: "Optimisation d'un portfolio",
     description:
       "C'est un site web pour une photographe dont j'ai optimisé les performances. J'ai  utilisé Lighthouse et Wave pour analyser le site et apporter des améliorations. J'ai également ajouté des balises meta et des attributs alt pour l'accessibilité.",
     linkPicture:
-      "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424855/portfolio/gjzoa74gbng1gn3fvv1g.avif",
+      "https://res.cloudinary.com/dbf29pedz/image/upload/f_auto,q_auto/v1/portfolio/projet-NinaCarducci",
     linkSite: "https://etiennetrzpit.github.io/ninacarducci/",
     linkGithub: "https://github.com/EtienneTrzpit/ninacarducci",
   },
@@ -70,7 +70,7 @@ const images = [
     description:
       "C'est un site web pour une photographe. J'ai utilisé JavaScript pour ajouter des fonctionnalités comme un carrousel et un filtre de recherche. J'ai également utilisé une API pour récupérer les données des photos.",
     linkPicture:
-      "https://res.cloudinary.com/dbf29pedz/image/upload/v1708424856/portfolio/eqqc1xogtatrppwkxsqu.avif",
+      "https://res.cloudinary.com/dbf29pedz/image/upload/f_auto,q_auto/v1/portfolio/projet-SophieBluel",
     linkSite: "https://etiennetrzpit.github.io/Portfolio-SophieBluel-FrontEnd/",
     linkGithub:
       "https://github.com/EtienneTrzpit/Portfolio-SophieBluel-FrontEnd",
