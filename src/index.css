@@ -576,6 +576,9 @@ textarea {
   .project-img {
     width: 100%;
   }
+  .project {
+    width: 100%;
+  }
   /* Section Presentation */
 
   .presentation {
